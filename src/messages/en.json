@@ -1,0 +1,99 @@
+{
+  "Meta": {
+    "title": "HARAKO — Explore Maku Free Zone",
+    "description": "A smart tourism platform for the Maku Free Zone, West Azerbaijan."
+  },
+  "Language": {
+    "label": "Language",
+    "switchTo": "فارسی"
+  },
+  "Nav": {
+    "label": "Main navigation",
+    "map": "Map",
+    "discover": "Discover",
+    "assistant": "Assistant",
+    "route": "Route"
+  },
+  "Landing": {
+    "badge": "Maku Free Zone, West Azerbaijan",
+    "title1": "Explore Maku",
+    "title2": "at your own pace",
+    "subtitle": "Find sights, routes and services across the Maku Free Zone, all in one app.",
+    "searchLabel": "Search places",
+    "searchPlaceholder": "Find a place in Maku…",
+    "searchButton": "Search",
+    "start": "Get started",
+    "suggested": "Suggested places"
+  },
+  "Discover": {
+    "location": "Maku, West Azerbaijan",
+    "title1": "Discover",
+    "title2": "Maku",
+    "subtitle": "Places, experiences and services across the free zone at a glance.",
+    "searchLabel": "Search",
+    "searchPlaceholder": "Search places in Maku…",
+    "all": "All",
+    "results": "Results",
+    "count": "{count, plural, one {# place} other {# places}}",
+    "empty": "No places found.",
+    "emptyHint": "Try a different word, or set the filter back to All.",
+    "reset": "Show all places",
+    "sample": "Prototype",
+    "sampleNote": "The places on this page are unverified sample data.",
+    "loading": "Loading…",
+    "apiError": "Results did not arrive from the server. Showing built-in samples.",
+    "suggestionsTitle": "Our suggestions",
+    "suggestionsHint": "Fresh ideas every time you open the app",
+    "refresh": "Fresh suggestions",
+    "tabs": {
+      "label": "Discover sections",
+      "places": "Places",
+      "opportunities": "Economic opportunities"
+    }
+  },
+  "Categories": {
+    "nature": "Nature",
+    "history": "Historical",
+    "services": "Services"
+  },
+  "Place": {
+    "back": "Back",
+    "save": "Save place",
+    "unsave": "Remove from saved",
+    "about": "About this place",
+    "distance": "{km, number} km away",
+    "routeHere": "Route here",
+    "showOnMap": "Show on map"
+  },
+  "Soon": {
+    "badge": "Coming soon",
+    "map": {
+      "title": "Interactive map",
+      "text": "The map will be added in the next stage."
+    },
+    "assistant": {
+      "title": "Assistant",
+      "text": "Chatting with the assistant will be added in a later stage."
+    },
+    "route": {
+      "title": "Routing",
+      "text": "In-app routing will be added in a later stage."
+    }
+  },
+  "Opportunities": {
+    "title1": "Economic",
+    "title2": "opportunities in Maku",
+    "hint": "Investment and business opportunities in the city and the free zone.",
+    "results": "Opportunities",
+    "count": "{count, plural, one {# opportunity} other {# opportunities}}",
+    "empty": "No opportunities found.",
+    "emptyHint": "Pick another sector.",
+    "sampleNote": "These opportunities are placeholders and will come from the server later.",
+    "sectors": {
+      "trade": "Trade and transit",
+      "industry": "Industry",
+      "agriculture": "Agriculture",
+      "tourism": "Tourism"
+    }
+  }
+}
