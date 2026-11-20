@@ -20,3 +20,19 @@ def check_route_limit(request: Request) -> None:
     if len(q) >= limit:
         raise HTTPException(429, "Too many route requests, try again in a minute")
     q.append(now)
+
+
+_ai_hits: dict[str, deque[float]] = defaultdict(deque)
+
+
+def check_ai_limit(request: Request) -> None:
+    """Same idea for the assistant (every chat call can cost LLM tokens and routing quota)."""
+    limit = get_settings().ai_requests_per_minute
+    ip = request.client.host if request.client else "unknown"
+    now = time.monotonic()
+    q = _ai_hits[ip]
+    while q and now - q[0] > 60:
+        q.popleft()
+    if len(q) >= limit:
+        raise HTTPException(429, "Too many assistant requests, try again in a minute")
+    q.append(now)

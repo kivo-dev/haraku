@@ -1,11 +1,10 @@
 from datetime import datetime, timezone
 from typing import Optional
 
-from sqlalchemy import Boolean, DateTime, Float, ForeignKey, Index, Integer, String, Text, event
+from sqlalchemy import Boolean, DateTime, Float, ForeignKey, Index, Integer, String, Text
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 
 from .constants import PUBLISHED, VERIFIED  # noqa: F401  (re-exported)
-from .search_text import build_search_fields
 
 
 def _now() -> datetime:
@@ -26,9 +25,6 @@ class Category(Base):
     title_fa: Mapped[str] = mapped_column(String(100))
     title_en: Mapped[str] = mapped_column(String(100))
     sort: Mapped[int] = mapped_column(Integer, default=0)
-
-    def __str__(self) -> str:  # shown in the admin panel dropdowns
-        return f"{self.title_fa} ({self.key})"
 
 
 class Place(Base):
@@ -64,13 +60,9 @@ class Place(Base):
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_now)
     updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_now, onupdate=_now)
 
-    category: Mapped["Category"] = relationship()
     images: Mapped[list["PlaceImage"]] = relationship(
         back_populates="place", order_by="PlaceImage.sort", cascade="all, delete-orphan"
     )
-
-    def __str__(self) -> str:
-        return f"{self.name_fa} ({self.id})"
 
 
 class PlaceImage(Base):
@@ -107,22 +99,3 @@ class Opportunity(Base):
 
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_now)
     updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_now, onupdate=_now)
-
-
-# The search columns are filled automatically on every insert/update, whoever writes the row
-# (admin panel, seed script, a future API), so nobody has to remember to compute them.
-def _fill_place_search(mapper, connection, target: Place) -> None:  # noqa: ARG001
-    target.search_text, target.search_compact = build_search_fields(
-        target.name_fa, target.name_en, target.area_fa, target.area_en, target.summary_fa, target.summary_en
-    )
-
-
-def _fill_opportunity_search(mapper, connection, target: Opportunity) -> None:  # noqa: ARG001
-    target.search_text, target.search_compact = build_search_fields(
-        target.title_fa, target.title_en, target.summary_fa, target.summary_en
-    )
-
-
-for _evt in ("before_insert", "before_update"):
-    event.listen(Place, _evt, _fill_place_search)
-    event.listen(Opportunity, _evt, _fill_opportunity_search)

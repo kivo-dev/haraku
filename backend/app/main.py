@@ -7,7 +7,7 @@ from sqlalchemy.orm import Session
 
 from .config import get_settings
 from .db import get_db, init_db
-from .admin import setup_admin
+from .ai import router as assistant
 from .routers import opportunities, places, routes
 
 settings = get_settings()
@@ -25,7 +25,7 @@ app = FastAPI(title="HARAKO API", version="0.1.0", lifespan=lifespan)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.cors_origin_list,
-    allow_methods=["GET"],  # read-only public API for now
+    allow_methods=["GET", "POST"],  # POST: only the assistant chat endpoint
     allow_headers=["*"],
 )
 
@@ -33,9 +33,7 @@ app.add_middleware(
 app.include_router(places.router, prefix="/v1", tags=["places"])
 app.include_router(opportunities.router, prefix="/v1", tags=["opportunities"])
 app.include_router(routes.router, prefix="/v1", tags=["routes"])
-
-
-setup_admin(app)  # /admin (stays off until ADMIN_* settings exist)
+app.include_router(assistant.router, prefix="/v1", tags=["assistant"])
 
 
 @app.get("/health", tags=["system"])
