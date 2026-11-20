@@ -1,0 +1,152 @@
+{
+  "_note": "PLACEHOLDER DATA from the frontend prototype. No real facts, no coordinates. Replace with checked data, then run: python -m app.seed --purge-samples",
+  "categories": [
+    {
+      "key": "nature",
+      "title": {
+        "fa": "طبیعت",
+        "en": "Nature"
+      }
+    },
+    {
+      "key": "history",
+      "title": {
+        "fa": "تاریخی",
+        "en": "Historical"
+      }
+    },
+    {
+      "key": "services",
+      "title": {
+        "fa": "خدمات",
+        "en": "Services"
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "maku-viewpoint",
+      "category": "nature",
+      "featured": true,
+      "name": {
+        "fa": "چشم‌انداز ماکو",
+        "en": "Maku Viewpoint"
+      },
+      "area": {
+        "fa": "ماکو",
+        "en": "Maku"
+      },
+      "summary": {
+        "fa": "نقطه‌ای برای دیدن شهر و صخره‌های اطرافش از بالا.",
+        "en": "A spot to see the town and the rock walls around it from above."
+      },
+      "source": "seed-sample"
+    },
+    {
+      "id": "qareh-kelisa",
+      "category": "history",
+      "featured": true,
+      "name": {
+        "fa": "قره‌کلیسا",
+        "en": "Qareh Kelisa"
+      },
+      "area": {
+        "fa": "حوالی چالدران",
+        "en": "Near Chaldoran"
+      },
+      "summary": {
+        "fa": "یکی از شناخته‌شده‌ترین بناهای تاریخی شمال غرب ایران.",
+        "en": "One of the best-known historic landmarks in north-west Iran."
+      },
+      "source": "seed-sample"
+    },
+    {
+      "id": "chashmeh-soraya",
+      "category": "nature",
+      "name": {
+        "fa": "چشمه ثریا",
+        "en": "Chashmeh Soraya"
+      },
+      "area": {
+        "fa": "ماکو",
+        "en": "Maku"
+      },
+      "summary": {
+        "fa": "یکی از مکان‌های طبیعی پیشنهادی ماکو. متن این مکان را خودتان ویرایش کنید.",
+        "en": "A suggested natural place in Maku. Edit this text yourself."
+      },
+      "source": "seed-sample"
+    },
+    {
+      "id": "bazargan-stop",
+      "category": "services",
+      "name": {
+        "fa": "توقف در بازرگان",
+        "en": "Stop at Bazargan"
+      },
+      "area": {
+        "fa": "بازرگان",
+        "en": "Bazargan"
+      },
+      "summary": {
+        "fa": "ایستگاهی برای استراحت، خرید و خدمات مسیر.",
+        "en": "A stop for a rest, shopping and services along the route."
+      },
+      "source": "seed-sample"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "sample-trade",
+      "sector": "trade",
+      "title": {
+        "fa": "فرصت نمونه در تجارت و ترانزیت",
+        "en": "Sample trade and transit opportunity"
+      },
+      "source": "seed-sample",
+      "summary": {
+        "fa": "شرح این فرصت بعداً وارد می‌شود.",
+        "en": "The description of this opportunity will be added later."
+      }
+    },
+    {
+      "id": "sample-industry",
+      "sector": "industry",
+      "title": {
+        "fa": "فرصت نمونه در صنعت",
+        "en": "Sample industry opportunity"
+      },
+      "source": "seed-sample",
+      "summary": {
+        "fa": "شرح این فرصت بعداً وارد می‌شود.",
+        "en": "The description of this opportunity will be added later."
+      }
+    },
+    {
+      "id": "sample-agriculture",
+      "sector": "agriculture",
+      "title": {
+        "fa": "فرصت نمونه در کشاورزی",
+        "en": "Sample agriculture opportunity"
+      },
+      "source": "seed-sample",
+      "summary": {
+        "fa": "شرح این فرصت بعداً وارد می‌شود.",
+        "en": "The description of this opportunity will be added later."
+      }
+    },
+    {
+      "id": "sample-tourism",
+      "sector": "tourism",
+      "title": {
+        "fa": "فرصت نمونه در گردشگری",
+        "en": "Sample tourism opportunity"
+      },
+      "source": "seed-sample",
+      "summary": {
+        "fa": "شرح این فرصت بعداً وارد می‌شود.",
+        "en": "The description of this opportunity will be added later."
+      }
+    }
+  ]
+}

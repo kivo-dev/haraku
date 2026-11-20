@@ -1,0 +1,27 @@
+# docker compose up --build        (API on http://localhost:8000, docs on /docs)
+# First time: docker compose exec api python -m app.seed
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: harako
+      POSTGRES_PASSWORD: change-me-locally
+      POSTGRES_DB: harako
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U harako"]
+      interval: 5s
+      retries: 10
+  api:
+    build: .
+    env_file: [.env]
+    environment:
+      DATABASE_URL: postgresql+psycopg://harako:change-me-locally@db:5432/harako
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+volumes:
+  dbdata:
