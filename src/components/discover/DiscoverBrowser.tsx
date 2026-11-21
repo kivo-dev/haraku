@@ -1,17 +1,15 @@
 "use client";
 
 import { LayoutGrid, Search } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { apiEnabled } from "@/lib/api/config";
 import { fetchPlaces } from "@/lib/api/client";
-import { categoryIcons, categoryKeys, type CategoryKey, type Place } from "@/lib/places";
+import { categoryIcons, type CategoryKey, type Category, type Place } from "@/lib/places";
 import { DiscoverHero } from "./DiscoverHero";
 import { PlaceCard } from "./PlaceCard";
 import { Suggestions } from "./Suggestions";
-
-const filters = ["all", ...categoryKeys] as const;
 
 function useDebounced<T>(value: T, ms: number): T {
   const [v, setV] = useState(value);
@@ -22,16 +20,9 @@ function useDebounced<T>(value: T, ms: number): T {
   return v;
 }
 
-/**
- * Discover, page 1: places.
- *  - "Our suggestions" is filled by the backend (see Suggestions.tsx)
- *  - picking a category (or searching) asks the backend for exactly those places (`GET /places?category=`)
- *    and shows what comes back. Without a backend the built-in places are filtered on the device.
- */
-export function DiscoverBrowser({ places }: { places: Place[] }) {
+export function DiscoverBrowser({ places, categories }: { places: Place[]; categories: Category[] }) {
   const t = useTranslations("Discover");
-  const tc = useTranslations("Categories");
-  // `?q=` comes from the landing search box
+  const locale = useLocale();
   const initialQuery = useSearchParams().get("q") ?? "";
   const [query, setQuery] = useState(initialQuery);
   const [category, setCategory] = useState<CategoryKey | "all">("all");
@@ -98,21 +89,22 @@ export function DiscoverBrowser({ places }: { places: Place[] }) {
           <Suggestions fallback={places} />
 
           <div className="no-scrollbar -mx-5 mt-6 flex gap-2 overflow-x-auto px-5 md:mx-0 md:flex-wrap md:overflow-visible md:px-0">
-            {filters.map((key) => {
-              const Icon = key === "all" ? LayoutGrid : categoryIcons[key];
+            {["all", ...categories.map((item) => item.key)].map((key) => {
+              const item = categories.find((categoryItem) => categoryItem.key === key);
+              const Icon = key === "all" ? LayoutGrid : (categoryIcons[key as CategoryKey] ?? LayoutGrid);
               const active = category === key;
               return (
                 <button
                   key={key}
                   type="button"
                   aria-pressed={active}
-                  onClick={() => setCategory(key)}
+                  onClick={() => setCategory(key as CategoryKey | "all")}
                   className={`inline-flex h-11 shrink-0 items-center gap-2 rounded-full px-5 text-sm font-medium transition ${
                     active ? "bg-forest-950 text-white" : "bg-white text-ink-700 hover:bg-mist-50"
                   }`}
                 >
                   <Icon className="size-4" aria-hidden />
-                  {key === "all" ? t("all") : tc(key)}
+                  {key === "all" ? t("all") : item?.title[locale as "fa" | "en"] ?? key}
                 </button>
               );
             })}

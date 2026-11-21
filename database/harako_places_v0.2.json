@@ -1,0 +1,1535 @@
+{
+ "meta": {
+  "project": "HARAKO",
+  "stage": "v0.2 draft",
+  "generated": "2026-11-20",
+  "note": "Only 2 places have approximate cross-checked coordinates; all others null on purpose. inside_free_zone: yes|probable|uncertain|outside_pending (no official map found).",
+  "area_centers": [
+   {
+    "name_fa": "ماکو (شهر)",
+    "lat": 39.29417,
+    "lng": 44.49722,
+    "source": "https://wikipedia.com/wiki/Maku,_Iran",
+    "note": "مرکز شهر؛ نقطه 39.433,44.650 در ویکی‌پدیا مرکز شهرستان است نه شهر"
+   },
+   {
+    "name_fa": "بازرگان (شهر)",
+    "lat": 39.38972,
+    "lng": 44.38917,
+    "source": "https://EN.wikipedia.com/wiki/Bazargan,_Iran"
+   },
+   {
+    "name_fa": "شوط (شهر)",
+    "lat": 39.219722,
+    "lng": 44.772222,
+    "source": "https://en.wikipedia.org/wiki/Showt",
+    "note": "از لینک OSM در ویکی‌پدیا"
+   }
+  ]
+ },
+ "locations": [
+  {
+   "id": "maku-baghcheh-jooq-palace",
+   "name": {
+    "fa": "کاخ موزه باغچه‌جوق",
+    "en": "Baghcheh Jooq Palace Museum"
+   },
+   "category": "attractions",
+   "subcategory": "historical",
+   "description": {
+    "fa": "کاخ-موزه تاریخی در ماکو",
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "ماکو",
+   "county": "ماکو",
+   "location": {
+    "lat": 39.28944,
+    "lng": 44.42617,
+    "coords_status": "cross_checked_approx"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.kojaro.com/maku/",
+    "https://tasnimnews.ir/687873",
+    "https://en.wikipedia.org/wiki/Baqcheh_Jooq_Palace",
+    "https://en.wikivoyage.org/wiki/Maku",
+    "https://www.geonames.org/14156/"
+   ],
+   "verification_status": "partially_verified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": "مختصات از ویکی‌پدیا/ویکی‌سفر/جئونیمز (روستای باغچه‌جوق)؛ دقت تقریبی، نه ورودی دقیق"
+  },
+  {
+   "id": "maku-qapan-castle",
+   "name": {
+    "fa": "قلعه قبان (قابان/قپان/کاپان)",
+    "en": "Qapan (Ghaban) Castle"
+   },
+   "category": "attractions",
+   "subcategory": "castle",
+   "description": {
+    "fa": "قلعه‌ای تاریخی در زیر صخره‌ی بزرگ شهر ماکو؛ در فهرست آثار ملی",
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "ماکو (بافت تاریخی)",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.kojaro.com/maku/",
+    "https://setare.com/?p=121589"
+   ],
+   "verification_status": "partially_verified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": "نام‌های دیگر: قلعه کاپان/قپان؛ یک منبع فلای‌تودی «کوبان» نوشته"
+  },
+  {
+   "id": "maku-farhad-rock-tomb",
+   "name": {
+    "fa": "دخمه سنگی (ایوان/بام سنگی) فرهاد",
+    "en": "Farhad Rock Tomb"
+   },
+   "category": "attractions",
+   "subcategory": "archaeological",
+   "description": {
+    "fa": "گوردخمه سنگی منسوب به دوران اورارتو/ماد",
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "ماکو",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://safarmarket.com/blog/attractions/iran/maku/maku-attractions",
+    "https://tasnimnews.ir/687873",
+    "https://setare.com/?p=121589"
+   ],
+   "verification_status": "partially_verified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": "نام‌ها در منابع متفاوت است"
+  },
+  {
+   "id": "maku-kolah-farangi-mansion",
+   "name": {
+    "fa": "عمارت کلاه‌فرنگی",
+    "en": "Kolah Farangi Mansion"
+   },
+   "category": "attractions",
+   "subcategory": "historical",
+   "description": {
+    "fa": "عمارت تاریخی متعلق به علیقلی‌خان بیات",
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "ماکو",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://tasnimnews.ir/687873",
+    "https://setare.com/?p=121589",
+    "https://safarmarket.com/blog/attractions/iran/maku/maku-attractions"
+   ],
+   "verification_status": "partially_verified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": null
+  },
+  {
+   "id": "maku-old-police-building",
+   "name": {
+    "fa": "ساختمان شهربانی قدیم",
+    "en": "Old Police Building"
+   },
+   "category": "attractions",
+   "subcategory": "historical",
+   "description": {
+    "fa": "بنای تاریخی ساخته‌شده توسط یکی از خوانین ماکو",
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "ماکو",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://tasnimnews.ir/687873"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": "فقط یک منبع"
+  },
+  {
+   "id": "maku-melli-bank-historic",
+   "name": {
+    "fa": "ساختمان تاریخی بانک ملی",
+    "en": "Historic Bank Melli Building"
+   },
+   "category": "attractions",
+   "subcategory": "historical",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "ماکو",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://tasnimnews.ir/687873"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": "فقط یک منبع؛ فعالیت فعلی نامشخص"
+  },
+  {
+   "id": "maku-old-bazaar",
+   "name": {
+    "fa": "بازارچه تاریخی ماکو",
+    "en": "Maku Historic Bazaar"
+   },
+   "category": "attractions",
+   "subcategory": "cultural",
+   "description": {
+    "fa": "بازارچه در بافت تاریخی ماکو",
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "ماکو",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.yjc.ir/fa/amp/news/6861297"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": "ارقام مساحت/مغازه در منبع ناسازگار است"
+  },
+  {
+   "id": "maku-beshgoz-bridge",
+   "name": {
+    "fa": "پل بشگوز",
+    "en": "Beshgoz Bridge"
+   },
+   "category": "attractions",
+   "subcategory": "historical",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "ماکو",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://tasnimnews.ir/687873"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "uncertain",
+   "last_verified": "2026-11-20",
+   "notes": "فقط یک منبع؛ محل نامشخص"
+  },
+  {
+   "id": "maku-dambad-historic-town",
+   "name": {
+    "fa": "شهر تاریخی دامباد",
+    "en": "Dambad Historic Town"
+   },
+   "category": "attractions",
+   "subcategory": "archaeological",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "ماکو",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://tasnimnews.ir/687873"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "uncertain",
+   "last_verified": "2026-11-20",
+   "notes": "فقط یک منبع؛ محل نامشخص"
+  },
+  {
+   "id": "maku-qaleh-jooq-bridge",
+   "name": {
+    "fa": "پل قلعه‌جوق",
+    "en": "Qaleh Jooq Bridge"
+   },
+   "category": "attractions",
+   "subcategory": "historical",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "قلعه‌جوق",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.kojaro.com/maku/"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": null
+  },
+  {
+   "id": "maku-qaleh-jooq-waterfall",
+   "name": {
+    "fa": "آبشار قلعه‌جوق",
+    "en": "Qaleh Jooq Waterfall"
+   },
+   "category": "nature_adventure",
+   "subcategory": "waterfall",
+   "description": {
+    "fa": "حدود ۵ کیلومتری جنوب‌غرب ماکو، میان کوه‌ها",
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "قلعه‌جوق",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.kojaro.com/maku/"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": null
+  },
+  {
+   "id": "maku-jilli-bulagh-spring",
+   "name": {
+    "fa": "چشمه جیللی بولاغ",
+    "en": "Jilli Bulagh Spring"
+   },
+   "category": "nature_adventure",
+   "subcategory": "spring",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "روستای رند",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.kojaro.com/maku/"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": null
+  },
+  {
+   "id": "maku-rend-village-valley",
+   "name": {
+    "fa": "روستا و دره رند",
+    "en": "Rend Village & Valley"
+   },
+   "category": "nature_adventure",
+   "subcategory": "valley",
+   "description": {
+    "fa": "روستای گردشگری",
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "رند",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.kojaro.com/maku/",
+    "https://tasnimnews.ir/687873"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": null
+  },
+  {
+   "id": "maku-qarakhach-village",
+   "name": {
+    "fa": "روستای قره‌خاچ",
+    "en": "Qarakhach Village"
+   },
+   "category": "attractions",
+   "subcategory": "historical_village",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "قره‌خاچ",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://tasnimnews.ir/687873"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "uncertain",
+   "last_verified": "2026-11-20",
+   "notes": "محل دقیق و واقع‌بودن در بخش ماکو بررسی شود"
+  },
+  {
+   "id": "maku-parakhodik-village",
+   "name": {
+    "fa": "روستای پره‌خودیک",
+    "en": "Parakhodik Village"
+   },
+   "category": "attractions",
+   "subcategory": "historical_village",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "پره‌خودیک",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://tasnimnews.ir/687873"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "uncertain",
+   "last_verified": "2026-11-20",
+   "notes": null
+  },
+  {
+   "id": "maku-aghgol-wetland",
+   "name": {
+    "fa": "تالاب آق‌گل",
+    "en": "Agh Gol Wetland"
+   },
+   "category": "nature_adventure",
+   "subcategory": "wetland",
+   "description": {
+    "fa": "تالاب مجاور رود ارس",
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "شمال‌شرق ماکو، کنار ارس",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://safarmarket.com/blog/attractions/iran/maku/maku-attractions"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": null
+  },
+  {
+   "id": "maku-dam",
+   "name": {
+    "fa": "سد ماکو",
+    "en": "Maku Dam"
+   },
+   "category": "nature_adventure",
+   "subcategory": "lake",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "ماکو",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://tasnimnews.ir/687873"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": "ممکن است با «سد بارون» اشتباه شود؛ بررسی میدانی"
+  },
+  {
+   "id": "showt-st-george-church",
+   "name": {
+    "fa": "کلیسای گئورگ مقدس (نزدیک مرگن)",
+    "en": "St. George Church (near Margan)"
+   },
+   "category": "attractions",
+   "subcategory": "church",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "نزدیک روستای مرگن",
+   "county": "شوط",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://setare.com/?p=121589"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "uncertain",
+   "last_verified": "2026-11-20",
+   "notes": "فقط یک منبع؛ محل نامشخص"
+  },
+  {
+   "id": "poldasht-aras-dam",
+   "name": {
+    "fa": "سد ارس و کمپ گردشگری",
+    "en": "Aras Dam & Tourism Camp"
+   },
+   "category": "nature_adventure",
+   "subcategory": "lake",
+   "description": {
+    "fa": "دریاچه سد ارس؛ ماهیگیری و تفریحات آبی",
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "پلدشت",
+   "county": "پلدشت",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://abadis.ir/fatofa/شهرستان-پلدشت/",
+    "https://www.chtn.ir/news/1405070700673"
+   ],
+   "verification_status": "partially_verified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": "مدیر گردشگری سازمان منطقه آزاد آن را از جاذبه‌های شاخص نامیده"
+  },
+  {
+   "id": "poldasht-aras-river",
+   "name": {
+    "fa": "رود ارس",
+    "en": "Aras River"
+   },
+   "category": "nature_adventure",
+   "subcategory": "river",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "پلدشت",
+   "county": "پلدشت",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://abadis.ir/fatofa/شهرستان-پلدشت/"
+   ],
+   "verification_status": "partially_verified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": null
+  },
+  {
+   "id": "poldasht-aras-promenade",
+   "name": {
+    "fa": "تفرجگاه ارس",
+    "en": "Aras Promenade"
+   },
+   "category": "nature_adventure",
+   "subcategory": "picnic",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "پلدشت",
+   "county": "پلدشت",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://abadis.ir/fatofa/شهرستان-پلدشت/"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": null
+  },
+  {
+   "id": "poldasht-shidi-village",
+   "name": {
+    "fa": "روستای تاریخی شیدی",
+    "en": "Shidi Historic Village"
+   },
+   "category": "attractions",
+   "subcategory": "historical_village",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "شیدی",
+   "county": "پلدشت",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://abadis.ir/fatofa/شهرستان-پلدشت/"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": null
+  },
+  {
+   "id": "poldasht-shotlu-village",
+   "name": {
+    "fa": "روستای گردشگری شوطلو",
+    "en": "Shotlu Tourist Village"
+   },
+   "category": "attractions",
+   "subcategory": "village",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "شوطلو",
+   "county": "پلدشت",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://abadis.ir/fatofa/شهرستان-پلدشت/"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": null
+  },
+  {
+   "id": "poldasht-zanganeh-plain",
+   "name": {
+    "fa": "دشت زنگنه",
+    "en": "Zanganeh Plain"
+   },
+   "category": "nature_adventure",
+   "subcategory": "viewpoint",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "پلدشت",
+   "county": "پلدشت",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://abadis.ir/fatofa/شهرستان-پلدشت/"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": null
+  },
+  {
+   "id": "poldasht-zangebar-river",
+   "name": {
+    "fa": "رود زنگبار",
+    "en": "Zangebar River"
+   },
+   "category": "nature_adventure",
+   "subcategory": "river",
+   "description": {
+    "fa": "از مرکز پلدشت می‌گذرد و به ارس می‌ریزد",
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "پلدشت",
+   "county": "پلدشت",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://abadis.ir/fatofa/شهرستان-پلدشت/"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": null
+  },
+  {
+   "id": "poldasht-customs-border",
+   "name": {
+    "fa": "گمرک و بازارچه مرزی پلدشت",
+    "en": "Poldasht Customs & Border Market"
+   },
+   "category": "transportation",
+   "subcategory": "border",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "پلدشت",
+   "county": "پلدشت",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.mehrnews.com/news/2196839",
+    "https://abadis.ir/fatofa/شهرستان-پلدشت/"
+   ],
+   "verification_status": "partially_verified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": "ساعات کار و وضعیت فعلی بررسی شود"
+  },
+  {
+   "id": "bazargan-border-terminal",
+   "name": {
+    "fa": "گمرک و پایانه مرزی بازرگان",
+    "en": "Bazargan Customs & Border Terminal"
+   },
+   "category": "transportation",
+   "subcategory": "border",
+   "description": {
+    "fa": "مرز زمینی ایران–ترکیه",
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "بازرگان",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.mehrnews.com/news/7000344",
+    "https://www.mehrnews.com/news/3879926"
+   ],
+   "verification_status": "partially_verified",
+   "inside_free_zone": "yes",
+   "last_verified": "2026-11-20",
+   "notes": "مختصات تعارض دارد: منبع لجستیک سمت ایران 39.0369,44.5136 (غیرمنطقی، احتمالاً غلط)؛ سمت ترکیه (گورباک) 39.4164,44.3525؛ مرکز شهر بازرگان 39.38972,44.38917. تا کنترل میدانی خالی ماند"
+  },
+  {
+   "id": "maku-sarisu-border-market",
+   "name": {
+    "fa": "بازارچه مرزی ساری‌سو",
+    "en": "Sari Su Border Market"
+   },
+   "category": "transportation",
+   "subcategory": "border",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "ساری‌سو",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.mehrnews.com/news/7000344"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": "خبر «بازگشایی»؛ وضعیت فعلی نامشخص"
+  },
+  {
+   "id": "showt-maku-airport",
+   "name": {
+    "fa": "فرودگاه (بین‌المللی) ماکو",
+    "en": "Maku Airport"
+   },
+   "category": "transportation",
+   "subcategory": "airport",
+   "description": {
+    "fa": "فرودگاه منطقه آزاد؛ باند ۳۲۷۰ متر",
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "شوط",
+   "county": "شوط",
+   "location": {
+    "lat": 39.1925,
+    "lng": 44.92528,
+    "coords_status": "cross_checked_approx"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.kojaro.com/maku/",
+    "https://www.mehrnews.com/news/3879926",
+    "https://en.wikipedia.org/wiki/Maku_International_Airport",
+    "https://skyvector.com/airport/OITU/Maku-National-Airport"
+   ],
+   "verification_status": "partially_verified",
+   "inside_free_zone": "yes",
+   "last_verified": "2026-11-20",
+   "notes": "پروازهای فعال بررسی شود | ویکی‌پدیا و اسکای‌وکتور هم‌خوان؛ نقطه‌ی فرودگاه نه ترمینال"
+  },
+  {
+   "id": "maku-bus-terminal",
+   "name": {
+    "fa": "ترمینال مسافربری ماکو",
+    "en": "Maku Bus Terminal"
+   },
+   "category": "transportation",
+   "subcategory": "bus_terminal",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "ماکو",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.flytoday.ir/hotel/هتل-های-ماکو/هتل-جهانگردی-ماکو"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": "فقط در صفحه هتل ذکر شده؛ نشانی نامشخص"
+  },
+  {
+   "id": "maku-fajr-hospital",
+   "name": {
+    "fa": "بیمارستان فجر ماکو",
+    "en": "Fajr Hospital Maku"
+   },
+   "category": "public_services",
+   "subcategory": "hospital",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "ماکو",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.flytoday.ir/hotel/هتل-های-ماکو/هتل-جهانگردی-ماکو",
+    "https://www.mehrnews.com/news/4008960"
+   ],
+   "verification_status": "partially_verified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": null
+  },
+  {
+   "id": "maku-mavi-hotel",
+   "name": {
+    "fa": "هتل ماوی ماکو",
+    "en": "Mavi Hotel Maku"
+   },
+   "category": "accommodation_food",
+   "subcategory": "hotel",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": "بلوار جواد قنبری، بالاتر از پارک امام",
+    "en": null
+   },
+   "area": "ماکو",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.alibaba.ir/hotel/ir-maku/mavi",
+    "https://safarmarket.com/blog/hotels/iran/maku/mavi-hotel-maku"
+   ],
+   "verification_status": "partially_verified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": "ستاره‌ی «۵» ادعای سایت‌های رزرو است"
+  },
+  {
+   "id": "maku-jahangardi-hotel",
+   "name": {
+    "fa": "هتل جهانگردی ماکو",
+    "en": "Jahangardi Hotel Maku"
+   },
+   "category": "accommodation_food",
+   "subcategory": "hotel",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": "خیابان امام، بالاتر از میدان امام حسین",
+    "en": null
+   },
+   "area": "ماکو",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.flytoday.ir/hotel/هتل-های-ماکو/هتل-جهانگردی-ماکو"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": "یک منبع (سایت رزرو)"
+  },
+  {
+   "id": "maku-makoo-makoo-hotel",
+   "name": {
+    "fa": "هتل ماکو ماکو",
+    "en": "Makoo Makoo Hotel"
+   },
+   "category": "accommodation_food",
+   "subcategory": "hotel",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": "بلوار شهید جواد قنبری، میدان مادر",
+    "en": null
+   },
+   "area": "ماکو",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.flytoday.ir/hotel/هتل-های-ماکو/هتل-ماکو-ماکو"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "probable",
+   "last_verified": "2026-11-20",
+   "notes": "یک منبع (سایت رزرو)"
+  },
+  {
+   "id": "bazargan-shahriyar-hotel",
+   "name": {
+    "fa": "هتل شهریار بازرگان",
+    "en": "Shahriyar Hotel Bazargan"
+   },
+   "category": "accommodation_food",
+   "subcategory": "hotel",
+   "description": {
+    "fa": null,
+    "en": null
+   },
+   "address": {
+    "fa": "بازرگان، بلوار امام، ۳۰۰ متر مانده به درب گمرک",
+    "en": null
+   },
+   "area": "بازرگان",
+   "county": "ماکو",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.flytoday.ir/hotel/هتل-های-ماکو/هتل-شهریار-بازرگان-ماکو"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "yes",
+   "last_verified": "2026-11-20",
+   "notes": "یک منبع (سایت رزرو)"
+  },
+  {
+   "id": "chaldoran-qara-kelisa",
+   "name": {
+    "fa": "قره‌کلیسا (کلیسای تادئوس مقدس)",
+    "en": "Qara Kelisa (St. Thaddeus Monastery)"
+   },
+   "category": "attractions",
+   "subcategory": "church",
+   "description": {
+    "fa": "از آثار ثبت‌شده‌ی یونسکو؛ ۱۵ کیلومتری شمال‌شرق مرکز چالدران",
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "چالدران",
+   "county": "چالدران (خارج از محدوده فعلی)",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.kojaro.com/siah-cheshmeh/",
+    "https://www.alibaba.ir/mag/?p=24166"
+   ],
+   "verification_status": "partially_verified",
+   "inside_free_zone": "outside_pending",
+   "last_verified": "2026-11-20",
+   "notes": "چالدران؛ الحاق نهایی تأیید نشده"
+  },
+  {
+   "id": "chaldoran-zor-zor-church",
+   "name": {
+    "fa": "کلیسای زور زور (مریم مقدس)",
+    "en": "Zor Zor Church (Chapel of Dzordzor)"
+   },
+   "category": "attractions",
+   "subcategory": "church",
+   "description": {
+    "fa": "ثبت‌شده در فهرست یونسکو",
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "نزدیک روستای بارون",
+   "county": "چالدران (خارج از محدوده فعلی)",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.kojaro.com/siah-cheshmeh/",
+    "https://safarmarket.com/blog/attractions/iran/maku/chapel-of-dzordzo"
+   ],
+   "verification_status": "partially_verified",
+   "inside_free_zone": "outside_pending",
+   "last_verified": "2026-11-20",
+   "notes": null
+  },
+  {
+   "id": "chaldoran-baron-dam-lake",
+   "name": {
+    "fa": "دریاچه سد بارون",
+    "en": "Baron Dam Lake"
+   },
+   "category": "nature_adventure",
+   "subcategory": "lake",
+   "description": {
+    "fa": "مناسب ماهیگیری و پیک‌نیک",
+    "en": null
+   },
+   "address": {
+    "fa": null,
+    "en": null
+   },
+   "area": "روستای بارون",
+   "county": "چالدران (خارج از محدوده فعلی)",
+   "location": {
+    "lat": null,
+    "lng": null,
+    "coords_status": "not_found"
+   },
+   "contact": {
+    "phone": null,
+    "website": null
+   },
+   "opening_hours": null,
+   "price": null,
+   "google_maps_url": null,
+   "images": [],
+   "sources": [
+    "https://www.kojaro.com/siah-cheshmeh/",
+    "https://www.kojaro.com/maku/"
+   ],
+   "verification_status": "unverified",
+   "inside_free_zone": "outside_pending",
+   "last_verified": "2026-11-20",
+   "notes": "تعارض: صفحه‌ی ماکو «۱۲ کیلومتری جنوب ماکو»، صفحه‌ی چالدران «در چالدران»"
+  }
+ ]
+}

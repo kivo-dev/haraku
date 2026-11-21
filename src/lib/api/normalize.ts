@@ -1,11 +1,6 @@
 import { categoryKeys, type CategoryKey, type LocalizedText, type Place } from "@/lib/places";
 import { sectorKeys, type Opportunity, type SectorKey } from "@/lib/opportunities";
 
-/**
- * The ONLY place that knows the API's field names.
- * When the real backend / Neshan response is final, adjust these functions and nothing else changes.
- * Expected fields are documented in README.md ("API contract").
- */
 type Raw = Record<string, unknown>;
 export const isObj = (v: unknown): v is Raw => typeof v === "object" && v !== null;
 
@@ -19,7 +14,6 @@ export function localized(v: unknown): LocalizedText | undefined {
   return undefined;
 }
 
-/** A list can arrive as `[...]` or as `{ items | data | results: [...] }`. */
 export function extractList(json: unknown): unknown[] | null {
   if (Array.isArray(json)) return json;
   if (isObj(json)) {
@@ -34,18 +28,49 @@ const firstImage = (raw: Raw) => {
   return typeof image === "string" && image ? image : undefined;
 };
 
+const categoryAliases: Record<string, CategoryKey> = {
+  nature: "nature_adventure",
+  history: "attractions",
+  services: "public_services",
+};
+
+function normalizeCategory(value: unknown): CategoryKey | null {
+  const key = String(value ?? "");
+  if ((categoryKeys as readonly string[]).includes(key)) return key as CategoryKey;
+  return categoryAliases[key] ?? null;
+}
+
+function normalizeImages(value: unknown): string[] | undefined {
+  if (!Array.isArray(value)) return undefined;
+  const images = value
+    .map((item) => {
+      if (typeof item === "string") return item;
+      if (isObj(item) && typeof item.url === "string") return item.url;
+      return "";
+    })
+    .filter(Boolean);
+  return images.length ? images : undefined;
+}
+
 export function normalizePlace(raw: unknown): Place | null {
   if (!isObj(raw)) return null;
   const id = raw.id ?? raw.slug;
   const name = localized(raw.name ?? raw.title);
   if ((typeof id !== "string" && typeof id !== "number") || !name) return null;
 
-  const cat = String(raw.category ?? "");
-  const category: CategoryKey = (categoryKeys as readonly string[]).includes(cat) ? (cat as CategoryKey) : "nature";
-  const lat = Number(raw.lat ?? (isObj(raw.location) ? raw.location.lat : undefined));
-  const lng = Number(raw.lng ?? raw.lon ?? (isObj(raw.location) ? (raw.location.lng ?? raw.location.lon) : undefined));
-  const rating = Number(raw.rating);
-  const distance = Number(raw.distanceKm ?? raw.distance_km);
+  const category = normalizeCategory(raw.category);
+  if (!category) return null;
+
+  const location = isObj(raw.location) ? raw.location : {};
+  const latValue = raw.lat ?? location.lat;
+  const lngValue = raw.lng ?? raw.lon ?? location.lng ?? location.lon;
+  const lat = latValue === null || latValue === undefined || latValue === "" ? NaN : Number(latValue);
+  const lng = lngValue === null || lngValue === undefined || lngValue === "" ? NaN : Number(lngValue);
+
+  const ratingValue = raw.rating;
+  const rating = ratingValue === null || ratingValue === undefined || ratingValue === "" ? NaN : Number(ratingValue);
+  const distanceValue = raw.distanceKm ?? raw.distance_km;
+  const distance = distanceValue === null || distanceValue === undefined || distanceValue === "" ? NaN : Number(distanceValue);
 
   return {
     id: String(id),
@@ -54,12 +79,14 @@ export function normalizePlace(raw: unknown): Place | null {
     area: localized(raw.area ?? raw.city ?? raw.address) ?? { fa: "", en: "" },
     summary: localized(raw.summary ?? raw.description) ?? { fa: "", en: "" },
     reason: localized(raw.reason),
-    coords: Number.isFinite(lat) && Number.isFinite(lng) && raw.lat !== undefined ? { lat, lng } : undefined,
+    coords: Number.isFinite(lat) && Number.isFinite(lng) ? { lat, lng } : undefined,
     rating: Number.isFinite(rating) && rating > 0 ? rating : undefined,
-    distanceKm: Number.isFinite(distance) && distance >= 0 && raw.distanceKm !== undefined ? distance : undefined,
+    distanceKm: Number.isFinite(distance) && distance >= 0 ? distance : undefined,
     featured: raw.featured === true,
     image: firstImage(raw),
-    source: "api",
+    images: normalizeImages(raw.images),
+    verified: raw.verified === true,
+    source: raw.is_sample === true || raw.source === "seed-sample" ? "sample" : "api",
   };
 }
 
@@ -76,6 +103,6 @@ export function normalizeOpportunity(raw: unknown): Opportunity | null {
     title,
     summary: localized(raw.summary ?? raw.description) ?? { fa: "", en: "" },
     image: firstImage(raw),
-    source: "api",
+    source: raw.is_sample === true || raw.source === "seed-sample" ? "sample" : "api",
   };
 }

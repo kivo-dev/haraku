@@ -16,6 +16,12 @@ import { extractList, normalizeOpportunity, normalizePlace } from "./normalize";
  */
 type Params = Record<string, string | number | undefined>;
 
+const backendCategory: Record<string, string> = {
+  attractions: "history",
+  nature_adventure: "nature",
+  public_services: "services",
+};
+
 async function getJson(path: string, params: Params, signal?: AbortSignal): Promise<unknown> {
   const query = new URLSearchParams();
   for (const [k, v] of Object.entries(params)) if (v !== undefined && v !== "") query.set(k, String(v));
@@ -31,9 +37,20 @@ async function getJson(path: string, params: Params, signal?: AbortSignal): Prom
 
 const places = (json: unknown) => (extractList(json) ?? []).map(normalizePlace).filter((p): p is Place => p !== null);
 
-export async function fetchPlaces(p: { category?: string; q?: string; signal?: AbortSignal }): Promise<Place[]> {
-  return places(await getJson("/places", { category: p.category, q: p.q }, p.signal));
+export async function fetchPlaces(p: {
+  category?: string;
+  q?: string;
+  signal?: AbortSignal;
+}): Promise<Place[]> {
+  const category = p.category
+    ? backendCategory[p.category] ?? p.category
+    : undefined;
+
+  return places(
+    await getJson("/places", { category, q: p.q }, p.signal)
+  );
 }
+
 
 export async function fetchSuggestions(p: { limit?: number; signal?: AbortSignal } = {}): Promise<Place[]> {
   return places(await getJson("/suggestions", { limit: p.limit ?? 6 }, p.signal));

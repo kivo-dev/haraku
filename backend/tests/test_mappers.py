@@ -5,7 +5,7 @@ from app.mappers import opportunity_to_out, place_to_out
 
 def row(**kw):
     base = dict(id="x", category_key="nature", name_fa="ماکو", name_en="", area_fa="", area_en="Maku", summary_fa="", summary_en="",
-                lat=None, lng=None, rating=None, featured=False, image_url=None, verification="unverified", images=[])
+                lat=None, lng=None, rating=None, featured=False, image_url=None, verification="unverified", source="manual", images=[])
     base.update(kw)
     return NS(**base)
 
@@ -21,6 +21,7 @@ def test_shape_matches_frontend_expectations():
     assert out["distanceKm"] == 12.3 and out["lat"] == 39.3 and out["featured"] is True and out["verified"] is True
     assert out["reason"] == {"fa": "نزدیک شما", "en": "Near you"}
     assert out["image"] is None and out["images"] == []
+    assert out["source"] == "manual" and out["is_sample"] is False
 
 
 def test_detail_includes_gallery():
@@ -29,5 +30,6 @@ def test_detail_includes_gallery():
 
 
 def test_opportunity():
-    o = opportunity_to_out(NS(id="o", sector="trade", title_fa="الف", title_en="A", summary_fa="", summary_en="", image_url="", verification="verified"))
+    o = opportunity_to_out(NS(id="o", sector="trade", title_fa="الف", title_en="A", summary_fa="", summary_en="", image_url="", verification="verified", source="seed-sample"))
     assert o.sector == "trade" and o.image is None and o.verified is True
+    assert o.source == "seed-sample" and o.is_sample is True

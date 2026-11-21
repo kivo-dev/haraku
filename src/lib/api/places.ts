@@ -1,18 +1,8 @@
 import { sampleOpportunities, type Opportunity } from "@/lib/opportunities";
-import { samplePlaces, type Place } from "@/lib/places";
+import { categoryKeys, defaultCategories, samplePlaces, type Category, type CategoryKey, type Place } from "@/lib/places";
 import { API_BASE } from "./config";
-import { extractList, isObj, normalizeOpportunity, normalizePlace } from "./normalize";
+import { extractList, isObj, localized, normalizeOpportunity, normalizePlace } from "./normalize";
 
-/**
- * SERVER side data layer (used by the pages when they are built / refreshed).
- *
- * With NEXT_PUBLIC_API_BASE_URL set the app calls:
- *   GET {base}/places            list of places
- *   GET {base}/places/{id}       one place
- *   GET {base}/opportunities     economic opportunities
- * Without it (or if a call fails) the built-in sample data is used.
- * The browser-side calls (category filter, suggestions) are in ./client.ts.
- */
 const REVALIDATE_SECONDS = 300;
 
 async function request(path: string): Promise<unknown | null> {
@@ -20,35 +10,46 @@ async function request(path: string): Promise<unknown | null> {
   try {
     const res = await fetch(`${API_BASE}${path}`, {
       next: { revalidate: REVALIDATE_SECONDS },
-      signal: AbortSignal.timeout(4000),
+      signal: AbortSignal.timeout(5000),
+      headers: { Accept: "application/json" },
     });
-    return res.ok ? await res.json() : null;
+    if (!res.ok) return null;
+    return res.json();
   } catch {
     return null;
   }
 }
 
+/** With API configured, an empty/error response stays empty; prototype data is never substituted. */
 export async function getPlaces(): Promise<Place[]> {
+  if (!API_BASE) return samplePlaces;
   const list = extractList(await request("/places"));
-  if (list) {
-    const places = list.map(normalizePlace).filter((p): p is Place => p !== null);
-    if (places.length > 0) return places;
-  }
-  return samplePlaces;
+  return (list ?? []).map(normalizePlace).filter((p): p is Place => p !== null);
 }
 
 export async function getPlace(id: string): Promise<Place | null> {
+  if (!API_BASE) return samplePlaces.find((p) => p.id === id) ?? null;
   const json = await request(`/places/${encodeURIComponent(id)}`);
-  const fromApi = normalizePlace(isObj(json) && isObj(json.data) ? json.data : json);
-  if (fromApi) return fromApi;
-  return samplePlaces.find((p) => p.id === id) ?? null;
+  return normalizePlace(isObj(json) && isObj(json.data) ? json.data : json);
 }
 
 export async function getOpportunities(): Promise<Opportunity[]> {
+  if (!API_BASE) return sampleOpportunities;
   const list = extractList(await request("/opportunities"));
-  if (list) {
-    const items = list.map(normalizeOpportunity).filter((o): o is Opportunity => o !== null);
-    if (items.length > 0) return items;
-  }
-  return sampleOpportunities;
+  return (list ?? []).map(normalizeOpportunity).filter((o): o is Opportunity => o !== null);
+}
+
+export async function getCategories(): Promise<Category[]> {
+  if (!API_BASE) return defaultCategories;
+  const list = extractList(await request("/categories"));
+  const categories = (list ?? [])
+    .filter(isObj)
+    .map((row) => {
+      const title = localized(row.title);
+      const rawKey = String(row.key ?? "");
+      const key = (categoryKeys as readonly string[]).includes(rawKey) ? (rawKey as CategoryKey) : null;
+      return title && key ? { key, title } : null;
+    })
+    .filter((item): item is Category => item !== null);
+  return categories.length ? categories : defaultCategories;
 }

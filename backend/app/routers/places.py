@@ -1,16 +1,15 @@
 from typing import Optional
 
 from fastapi import APIRouter, Depends, HTTPException, Query, Response
-from sqlalchemy import func, or_, select
+from sqlalchemy import select
 from sqlalchemy.orm import Session, selectinload
 
 from ..db import get_db
-from ..geo import bounding_box, haversine_km
 from ..mappers import place_to_out
-from ..models import PUBLISHED, Category, Place
+from ..models import Category, Place
 from ..schemas import CategoryOut, Localized, PlaceList, PlaceOut
 from ..scoring import Candidate, suggest
-from ..search_text import query_keys
+from ..services.discovery import search_places, visible_places_stmt
 
 router = APIRouter()
 
@@ -38,35 +37,29 @@ def list_places(
     if radius_km is not None and lat is None:
         raise HTTPException(422, "radius_km needs lat and lng")
 
-    stmt = select(Place).where(Place.status == PUBLISHED)
-    if category:
-        stmt = stmt.where(Place.category_key == category)
-    keys = query_keys(q)
-    if keys:
-        n, c = keys
-        stmt = stmt.where(or_(Place.search_text.contains(n, autoescape=True), Place.search_compact.contains(c, autoescape=True)))
+    page, total = search_places(db, category=category, q=q, lat=lat, lng=lng, radius_km=radius_km, limit=limit, offset=offset)
+    return PlaceList(items=[place_to_out(p, d) for p, d in page], total=total, limit=limit, offset=offset)
 
-    if lat is not None and lng is not None:
-        stmt = stmt.where(Place.lat.is_not(None), Place.lng.is_not(None))
-        if radius_km is not None:
-            min_lat, max_lat, min_lng, max_lng = bounding_box(lat, lng, radius_km)
-            stmt = stmt.where(Place.lat.between(min_lat, max_lat), Place.lng.between(min_lng, max_lng))
-        rows = db.scalars(stmt).all()
-        with_dist = [(p, haversine_km(lat, lng, p.lat, p.lng)) for p in rows]
-        if radius_km is not None:
-            with_dist = [(p, d) for p, d in with_dist if d <= radius_km]
-        with_dist.sort(key=lambda pd: (pd[1], pd[0].id))
-        page = with_dist[offset : offset + limit]
-        return PlaceList(items=[place_to_out(p, d) for p, d in page], total=len(with_dist), limit=limit, offset=offset)
 
-    total = db.scalar(select(func.count()).select_from(stmt.subquery())) or 0
-    rows = db.scalars(stmt.order_by(Place.featured.desc(), Place.name_fa, Place.id).limit(limit).offset(offset)).all()
-    return PlaceList(items=[place_to_out(p) for p in rows], total=total, limit=limit, offset=offset)
+@router.get("/places/nearby", response_model=PlaceList)
+def nearby_places(
+    lat: float = Query(..., ge=-90, le=90),
+    lng: float = Query(..., ge=-180, le=180),
+    radius_km: float = Query(25, gt=0, le=200, description="Search radius around the point"),
+    category: Optional[str] = None,
+    limit: int = Query(20, ge=1, le=100),
+    offset: int = Query(0, ge=0),
+    db: Session = Depends(get_db),
+):
+    """HARAKO places around a point (the user's GPS position, sent by the frontend), nearest first.
+    Only places that have coordinates. The server does not store the position."""
+    page, total = search_places(db, category=category, lat=lat, lng=lng, radius_km=radius_km, limit=limit, offset=offset)
+    return PlaceList(items=[place_to_out(p, d) for p, d in page], total=total, limit=limit, offset=offset)
 
 
 @router.get("/places/{place_id}", response_model=PlaceOut)
 def get_place(place_id: str, db: Session = Depends(get_db)):
-    place = db.scalar(select(Place).options(selectinload(Place.images)).where(Place.id == place_id, Place.status == PUBLISHED))
+    place = db.scalar(visible_places_stmt().options(selectinload(Place.images)).where(Place.id == place_id))
     if place is None:
         raise HTTPException(404, "Place not found")
     return place_to_out(place, detail=True)
@@ -87,7 +80,7 @@ def get_suggestions(
         raise HTTPException(422, "lat and lng must be given together")
     response.headers["Cache-Control"] = "no-store"  # a refresh must be able to give something new
 
-    rows = db.scalars(select(Place).where(Place.status == PUBLISHED)).all()
+    rows = db.scalars(visible_places_stmt()).all()
     by_id = {p.id: p for p in rows}
     candidates = [
         Candidate(

@@ -1,5 +1,6 @@
-# docker compose up --build        (API on http://localhost:8000, docs on /docs)
-# First time: docker compose exec api python -m app.seed
+# Local/staging stack:  docker compose up --build   (API on http://localhost:8000, docs on /docs)
+# First time only:      docker compose run --rm api python -m app.seed
+# Production: use real secrets (not these), HTTPS in front, APP_ENV=prod, see docs/DEPLOYMENT.md
 services:
   db:
     image: postgres:16
@@ -13,13 +14,31 @@ services:
       test: ["CMD-SHELL", "pg_isready -U harako"]
       interval: 5s
       retries: 10
+  redis:
+    image: redis:7-alpine
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      retries: 10
+  migrate:
+    build: .
+    env_file: [.env]
+    environment:
+      DATABASE_URL: postgresql+psycopg://harako:change-me-locally@db:5432/harako
+    command: ["alembic", "upgrade", "head"]
+    depends_on:
+      db:
+        condition: service_healthy
   api:
     build: .
     env_file: [.env]
     environment:
       DATABASE_URL: postgresql+psycopg://harako:change-me-locally@db:5432/harako
+      REDIS_URL: redis://redis:6379/0
     depends_on:
-      db:
+      migrate:
+        condition: service_completed_successfully
+      redis:
         condition: service_healthy
     ports:
       - "8000:8000"

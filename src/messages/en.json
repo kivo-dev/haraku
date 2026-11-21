@@ -52,6 +52,11 @@
     }
   },
   "Categories": {
+    "attractions": "Tourist attractions",
+    "accommodation_food": "Accommodation and dining",
+    "transport": "Transportation",
+    "public_services": "Public services",
+    "nature_adventure": "Nature and adventure",
     "nature": "Nature",
     "history": "Historical",
     "services": "Services"

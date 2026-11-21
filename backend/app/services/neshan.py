@@ -1,4 +1,4 @@
-"""Neshan adapter (routing only, for now).
+"""Neshan routing adapter. STATUS: UNVERIFIED (see below). Other Neshan capabilities: app/providers/pending.py.
 
 Design rules:
   * the SERVICE key stays on the server (env NESHAN_SERVICE_KEY), never in the frontend;
@@ -11,34 +11,12 @@ not reachable when this was written. Before relying on it run:
     python -m app.services.neshan_check 39.29,44.51 39.39,44.38
 and compare the printed raw JSON with the docs ("Direction API"). Fix `_parse` if they differ.
 """
-from dataclasses import dataclass
-from typing import Optional, Protocol
-
 import httpx
+
+from ..providers.base import ProviderDisabled, ProviderError, RouteResult, RoutingProvider  # noqa: F401  (re-exported)
 
 BASE_URL = "https://api.neshan.org"
 DIRECTION_PATH = "/v4/direction"  # with traffic. Without traffic: /v4/direction/no-traffic
-
-
-class ProviderError(Exception):
-    """The provider failed or answered in a way we do not understand (shown as HTTP 502)."""
-
-
-class ProviderDisabled(Exception):
-    """No key configured (shown as HTTP 503)."""
-
-
-@dataclass
-class RouteResult:
-    provider: str
-    mode: str
-    distance_m: int
-    duration_s: int
-    geometry: Optional[str]
-
-
-class RoutingProvider(Protocol):
-    async def route(self, origin: tuple[float, float], destination: tuple[float, float], mode: str = "car") -> RouteResult: ...
 
 
 def _parse(data: dict, mode: str) -> RouteResult:

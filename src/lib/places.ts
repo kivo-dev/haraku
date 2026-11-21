@@ -1,27 +1,39 @@
-import { Landmark, MapPin, Mountain, type LucideIcon } from "lucide-react";
+import { BedDouble, BusFront, Landmark, MapPin, Mountain, type LucideIcon } from "lucide-react";
 
-export const categoryKeys = ["nature", "history", "services"] as const;
+export const categoryKeys = [
+  "attractions",
+  "accommodation_food",
+  "transport",
+  "public_services",
+  "nature_adventure",
+] as const;
 export type CategoryKey = (typeof categoryKeys)[number];
 
 export const categoryIcons: Record<CategoryKey, LucideIcon> = {
-  nature: Mountain,
-  history: Landmark,
-  services: MapPin,
+  attractions: Landmark,
+  accommodation_food: BedDouble,
+  transport: BusFront,
+  public_services: MapPin,
+  nature_adventure: Mountain,
 };
 
 /** Colour mood of the placeholder illustration, per category. */
 export const categoryArt: Record<CategoryKey, "forest" | "dawn" | "fog"> = {
-  nature: "forest",
-  history: "dawn",
-  services: "fog",
+  attractions: "dawn",
+  accommodation_food: "fog",
+  transport: "fog",
+  public_services: "fog",
+  nature_adventure: "forest",
 };
 
 export type LocalizedText = { fa: string; en: string };
 
-/**
- * The shape the UI works with. Whatever the backend / Neshan API returns is
- * converted into this in `lib/api/places.ts` (see `normalizePlace`).
- */
+export type Category = {
+  key: CategoryKey;
+  title: LocalizedText;
+};
+
+/** Normalized shape consumed by the UI. */
 export type Place = {
   id: string;
   category: CategoryKey;
@@ -29,27 +41,30 @@ export type Place = {
   area: LocalizedText;
   summary: LocalizedText;
   coords?: { lat: number; lng: number };
-  /** 0–5. Shown only when present. */
   rating?: number;
-  /** Distance from the user in km. Shown only when present. */
   distanceKm?: number;
-  /** Full image URL from the API. When missing, /images/places/<id>.jpg is used. */
   image?: string;
-  /** Why this place is suggested (used by the "Our suggestions" section). Optional. */
+  images?: string[];
   reason?: LocalizedText;
-  /** Shown in the wide carousel at the top of Discover. */
   featured?: boolean;
-  /** "sample" = built-in prototype data, "api" = came from the backend. */
+  verified?: boolean;
   source: "sample" | "api";
 };
 
-// SAMPLE DATA ONLY: used until the API is connected (or when it is unreachable).
-// Names come from the design draft and are unverified. No coordinates on purpose.
+export const defaultCategories: Category[] = [
+  { key: "attractions", title: { fa: "جاذبه‌های گردشگری", en: "Tourist attractions" } },
+  { key: "accommodation_food", title: { fa: "اقامت و پذیرایی", en: "Accommodation and dining" } },
+  { key: "transport", title: { fa: "حمل‌ونقل", en: "Transportation" } },
+  { key: "public_services", title: { fa: "خدمات عمومی", en: "Public services" } },
+  { key: "nature_adventure", title: { fa: "طبیعت و ماجراجویی", en: "Nature and adventure" } },
+];
+
+// SAMPLE DATA ONLY: unverified placeholders, never presented as verified records.
 export const samplePlaces: Place[] = [
   {
     id: "maku-viewpoint",
     featured: true,
-    category: "nature",
+    category: "nature_adventure",
     name: { fa: "چشم‌انداز ماکو", en: "Maku Viewpoint" },
     area: { fa: "ماکو", en: "Maku" },
     summary: {
@@ -61,7 +76,7 @@ export const samplePlaces: Place[] = [
   {
     id: "qareh-kelisa",
     featured: true,
-    category: "history",
+    category: "attractions",
     name: { fa: "قره‌کلیسا", en: "Qareh Kelisa" },
     area: { fa: "حوالی چالدران", en: "Near Chaldoran" },
     summary: {
@@ -72,7 +87,7 @@ export const samplePlaces: Place[] = [
   },
   {
     id: "chashmeh-soraya",
-    category: "nature",
+    category: "nature_adventure",
     name: { fa: "چشمه ثریا", en: "Chashmeh Soraya" },
     area: { fa: "ماکو", en: "Maku" },
     summary: {
@@ -83,7 +98,7 @@ export const samplePlaces: Place[] = [
   },
   {
     id: "bazargan-stop",
-    category: "services",
+    category: "transport",
     name: { fa: "توقف در بازرگان", en: "Stop at Bazargan" },
     area: { fa: "بازرگان", en: "Bazargan" },
     summary: {

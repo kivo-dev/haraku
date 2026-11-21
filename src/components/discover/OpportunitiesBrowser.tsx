@@ -16,7 +16,7 @@ const filters = ["all", ...sectorKeys] as const;
  * Picking a sector asks the backend (`GET /opportunities?sector=`); without a backend the
  * built-in placeholders are filtered on the device.
  */
-export function OpportunitiesBrowser({ items }: { items: Opportunity[] }) {
+export function OpportunitiesBrowser({ items, loadFailed = false }: { items: Opportunity[]; loadFailed?: boolean }) {
   const t = useTranslations("Opportunities");
   const td = useTranslations("Discover");
   const [sector, setSector] = useState<SectorKey | "all">("all");
@@ -83,6 +83,11 @@ export function OpportunitiesBrowser({ items }: { items: Opportunity[] }) {
             </span>
           </div>
 
+          {loadFailed && (
+            <p role="alert" className="mb-3 rounded-2xl bg-white/80 px-4 py-3 text-sm text-ink-700">
+              {td("serverDown")}
+            </p>
+          )}
           {status === "error" && (
             <p role="status" className="mb-3 rounded-2xl bg-white/80 px-4 py-3 text-sm text-ink-700">
               {td("apiError")}

@@ -52,6 +52,11 @@
     }
   },
   "Categories": {
+    "attractions": "جاذبه‌های گردشگری",
+    "accommodation_food": "اقامت و پذیرایی",
+    "transport": "حمل‌ونقل",
+    "public_services": "خدمات عمومی",
+    "nature_adventure": "طبیعت و ماجراجویی",
     "nature": "طبیعت",
     "history": "تاریخی",
     "services": "خدمات"

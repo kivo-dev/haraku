@@ -1,0 +1,6699 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-11-20T16:52:06Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/122763186",
+      "properties": {
+        "@id": "way/122763186",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "VİP motel",
+        "tourism": "motel",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4478959,
+          39.1894139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/183433531",
+      "properties": {
+        "@id": "way/183433531",
+        "historic": "ruins",
+        "source": "bing",
+        "tourism": "attraction",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.9456999,
+          38.8864819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/183433532",
+      "properties": {
+        "@id": "way/183433532",
+        "historic": "ruins",
+        "source": "bing",
+        "tourism": "attraction",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.948109,
+          38.88583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/183433533",
+      "properties": {
+        "@id": "way/183433533",
+        "historic": "ruins",
+        "source": "bing",
+        "tourism": "attraction",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.9472188,
+          38.8861749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/230140692",
+      "properties": {
+        "@id": "way/230140692",
+        "natural": "wetland",
+        "source": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4121498,
+          39.412546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/238740637",
+      "properties": {
+        "@id": "way/238740637",
+        "alt_name": "St. Thaddeus Monastery",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "armenian_apostolic",
+        "description": "کهن‌ترین کلیسای ارامنه جهان",
+        "historic": "church",
+        "name": "قره کلیسا",
+        "name:az": "Qara-Kilisa",
+        "name:de": "Kloster Sankt Thaddäus",
+        "name:en": "Saint Thaddeus Monastery",
+        "name:es": "Monasterio de San Tadeo",
+        "name:fr": "Monastère Saint-Thaddée",
+        "name:hy": "Սուրբ Թադէոսի վանք",
+        "name:it": "Monastero di San Taddeo",
+        "name:pt": "Mosteiro de São Tadeu",
+        "name:tr": "Kara Kilise",
+        "note": "UNESCO World Heritage Site",
+        "religion": "christian",
+        "tourism": "attraction",
+        "wikidata": "Q842826",
+        "wikipedia": "en:St. Thaddeus Monastery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5443865,
+          39.0922902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/299123534",
+      "properties": {
+        "@id": "way/299123534",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4094726,
+          39.2098314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/299123537",
+      "properties": {
+        "@id": "way/299123537",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4059684,
+          39.2084105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/299125973",
+      "properties": {
+        "@id": "way/299125973",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4171243,
+          39.2006004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/308466383",
+      "properties": {
+        "@id": "way/308466383",
+        "amenity": "parking",
+        "parking": "surface",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4261895,
+          39.3002862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/323004070",
+      "properties": {
+        "@id": "way/323004070",
+        "amenity": "parking",
+        "parking": "surface",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4471703,
+          39.1908412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/323004074",
+      "properties": {
+        "@id": "way/323004074",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4269406,
+          39.1977955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/323004076",
+      "properties": {
+        "@id": "way/323004076",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4419793,
+          39.1579846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/323004077",
+      "properties": {
+        "@id": "way/323004077",
+        "amenity": "parking",
+        "parking": "surface",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4461507,
+          39.1919126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/323004078",
+      "properties": {
+        "@id": "way/323004078",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4159401,
+          39.1981591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/323004081",
+      "properties": {
+        "@id": "way/323004081",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4298991,
+          39.1946194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/323004083",
+      "properties": {
+        "@id": "way/323004083",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4411204,
+          39.1577061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/323004085",
+      "properties": {
+        "@id": "way/323004085",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4042482,
+          39.1892497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/323004099",
+      "properties": {
+        "@id": "way/323004099",
+        "historic": "monument",
+        "name": "Şəhidlər Xiyabanı",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4426022,
+          39.1581116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/363552292",
+      "properties": {
+        "@id": "way/363552292",
+        "amenity": "police",
+        "barrier": "fence",
+        "border_type": "nation",
+        "landuse": "military",
+        "name": "Şahtaxtı sərhəd keçid məntəqəsi",
+        "name:az": "Şahtaxtı sərhəd keçid məntəqəsi",
+        "name:en": "Azerbaijanian Border Control",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0726806,
+          39.3625338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/372059550",
+      "properties": {
+        "@id": "way/372059550",
+        "amenity": "fuel",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0692637,
+          38.903325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/372062644",
+      "properties": {
+        "@id": "way/372062644",
+        "addr:city": "قره ضیاالدین",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "بیمارستان امام خمینی شهرستان چایپاره",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0276966,
+          38.8829358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/372181402",
+      "properties": {
+        "@id": "way/372181402",
+        "addr:city": "ماکو",
+        "amenity": "fuel",
+        "building": "yes",
+        "name": "پمپ بنزین",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4380418,
+          39.299515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/372264340",
+      "properties": {
+        "@id": "way/372264340",
+        "addr:city": "شوط",
+        "amenity": "fuel",
+        "name": "پمپ بنزین شوط",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.7695516,
+          39.2300113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/376547674",
+      "properties": {
+        "@id": "way/376547674",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "بیمارستان فجر ماکو",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.488454,
+          39.2918817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/378956084",
+      "properties": {
+        "@id": "way/378956084",
+        "amenity": "fuel",
+        "fuel:cng": "yes",
+        "name": "CNG",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4026135,
+          39.0603826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/378959572",
+      "properties": {
+        "@id": "way/378959572",
+        "addr:city": "بازرگان",
+        "amenity": "fuel",
+        "fuel:cng": "yes",
+        "name": "پمپ گاز",
+        "name:en": "CNG Station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3912839,
+          39.381294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/378961860",
+      "properties": {
+        "@id": "way/378961860",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4271471,
+          39.2998439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/395525646",
+      "properties": {
+        "@id": "way/395525646",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.7594395,
+          39.2232629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/403052403",
+      "properties": {
+        "@id": "way/403052403",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "محوطه بیمارستان",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0748829,
+          39.3355236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/440836580",
+      "properties": {
+        "@id": "way/440836580",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4260763,
+          39.3020267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/489454735",
+      "properties": {
+        "@id": "way/489454735",
+        "access": "private",
+        "amenity": "parking",
+        "parking": "surface",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0721552,
+          39.3632272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/521627290",
+      "properties": {
+        "@id": "way/521627290",
+        "addr:city": "Baku",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Köhnə qala",
+        "building": "yes",
+        "cuisine": "regional;chicken;seafood;fish_and_chips;pizza;burger;kebab;breakfast;noodle;fish;pasta;tea;juice;shawarma;soup;salad",
+        "delivery": "yes",
+        "description": "Traditional Azerbaijani restaurant serving local cuisine in a calm and comfortable atmosphere.",
+        "highchair": "yes",
+        "mobile": "+9945973637",
+        "name": "Köhnə qala Restaraunt",
+        "official_name": "Köhnə qala Restaraunt",
+        "opening_hours": "Mo-Su 11:00-00:00",
+        "phone": "+994705973637",
+        "stars": "5",
+        "takeaway": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4124103,
+          39.1971068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/529661065",
+      "properties": {
+        "@id": "way/529661065",
+        "amenity": "bank",
+        "building": "yes",
+        "building:levels": "4",
+        "name": "Kapital Bank",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4106336,
+          39.2128421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/561725052",
+      "properties": {
+        "@id": "way/561725052",
+        "addr:city": "Naxçıvan",
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Möminə Xatun türbəsi",
+        "name:en": "Momine Khatun Mausoleum",
+        "tomb": "mausoleum",
+        "tourism": "attraction",
+        "wikipedia": "en:Momine_Khatun_Mausoleum",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4067096,
+          39.2060163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/584557049",
+      "properties": {
+        "@id": "way/584557049",
+        "amenity": "place_of_worship",
+        "building": "chapel",
+        "denomination": "armenian_apostolic",
+        "name:de": "Kapelle von Dsordsor",
+        "name:en": "Chapel of Dzordzor",
+        "name:es": "Capilla de Dzordzor",
+        "name:fr": "Chapelle Sainte-Mère-de-Dieu",
+        "name:it": "Cappella di Dzordzor",
+        "name:pt": "Capela de Dzordzor",
+        "religion": "christian",
+        "tourism": "attraction",
+        "wikidata": "Q2561858",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4762086,
+          39.1880713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/638521794",
+      "properties": {
+        "@id": "way/638521794",
+        "amenity": "cafe",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.544296,
+          39.0915527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/675803219",
+      "properties": {
+        "@id": "way/675803219",
+        "addr:city": "Qarabağlar",
+        "name": "Qarabaghlar Historical and Cultural Complex (14-th c.)",
+        "name:az": "Qarabağlar Tarix-Mədəniyyət Kompleksi (14 əsr)",
+        "tourism": "attraction",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.1923209,
+          39.4302798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/675803568",
+      "properties": {
+        "@id": "way/675803568",
+        "historic": "monument",
+        "name": "Qarabağlar Tarix-Mədəniyyət Kompleksi (14th. с.)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.192514,
+          39.430255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/675803627",
+      "properties": {
+        "@id": "way/675803627",
+        "historic": "monument",
+        "name": "Qarabağlar Tarix-Mədəniyyət Kompleksi",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.1923008,
+          39.4302695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/710585658",
+      "properties": {
+        "@id": "way/710585658",
+        "building": "yes",
+        "layer": "1",
+        "name": "پایانه مرزی پلدشت",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0613661,
+          39.3560464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/710585674",
+      "properties": {
+        "@id": "way/710585674",
+        "name": "بازارچه مرزی پلدشت",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0570345,
+          39.3626471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/710990088",
+      "properties": {
+        "@id": "way/710990088",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4517815,
+          39.2932287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/710999125",
+      "properties": {
+        "@id": "way/710999125",
+        "building": "yes",
+        "height": "30",
+        "name": "مهمانسرا شهرداری",
+        "tourism": "hostel",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4448517,
+          39.2943789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/710999128",
+      "properties": {
+        "@id": "way/710999128",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "درمانگاه تامین اجتماعی",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4510858,
+          39.2946969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/711013489",
+      "properties": {
+        "@id": "way/711013489",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5152476,
+          39.2951305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/711017019",
+      "properties": {
+        "@id": "way/711017019",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5405079,
+          39.2851819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/711020008",
+      "properties": {
+        "@id": "way/711020008",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5114247,
+          39.2950032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/729135882",
+      "properties": {
+        "@id": "way/729135882",
+        "amenity": "police",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0595992,
+          39.3546011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/744974806",
+      "properties": {
+        "@id": "way/744974806",
+        "building": "yes",
+        "name": "کاخ سردار",
+        "tourism": "museum",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4260577,
+          39.289418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/744974810",
+      "properties": {
+        "@id": "way/744974810",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "رستوران حاج بابا",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4239683,
+          39.2885223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/745443466",
+      "properties": {
+        "@id": "way/745443466",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "مرکز بهداشت",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4448187,
+          39.2940224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/764445601",
+      "properties": {
+        "@id": "way/764445601",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "تفرجگاه تورنا",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.435131,
+          39.2938183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/764625258",
+      "properties": {
+        "@id": "way/764625258",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "اولیوا",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.434073,
+          39.2920261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/764625259",
+      "properties": {
+        "@id": "way/764625259",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "کافه نان و شیرینی آردا آرال",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4303252,
+          39.2914504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/764625265",
+      "properties": {
+        "@id": "way/764625265",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "بیرینجی تاد",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4262864,
+          39.2903105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/764625266",
+      "properties": {
+        "@id": "way/764625266",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "الواری",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.425801,
+          39.2899617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/786353670",
+      "properties": {
+        "@id": "way/786353670",
+        "amenity": "fuel",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3893772,
+          39.3860753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/786353676",
+      "properties": {
+        "@id": "way/786353676",
+        "amenity": "fuel",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3893539,
+          39.0665049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/787135266",
+      "properties": {
+        "@id": "way/787135266",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "ترمینال شوط",
+        "public_transport": "station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.7690909,
+          39.229787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/802774087",
+      "properties": {
+        "@id": "way/802774087",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "بیمارستان بهشتی",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4038856,
+          39.0632454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/802774097",
+      "properties": {
+        "@id": "way/802774097",
+        "amenity": "bus_station",
+        "building": "yes",
+        "name": "ترمینال چالدران",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4016017,
+          39.0611568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/818083795",
+      "properties": {
+        "@id": "way/818083795",
+        "amenity": "fuel",
+        "building": "roof",
+        "layer": "1",
+        "name": "پمپ بنزین قره ایاقی",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.067464,
+          39.3473381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/818837295",
+      "properties": {
+        "@id": "way/818837295",
+        "amenity": "bank",
+        "brand": "بانک ملت",
+        "brand:en": "Bank Mellat",
+        "brand:wikidata": "Q4855944",
+        "brand:wikipedia": "en:Bank Mellat",
+        "building": "yes",
+        "name": "بانک ملت",
+        "name:en": "Bank Mellat",
+        "opening_hours": "Sa-Th 08:00-02:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0704034,
+          39.3485961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/818837296",
+      "properties": {
+        "@id": "way/818837296",
+        "amenity": "bank",
+        "brand": "بانک رفاه",
+        "brand:en": "Refah Bank",
+        "brand:wikidata": "Q7307083",
+        "brand:wikipedia": "en:Refah Bank",
+        "building": "yes",
+        "name": "بانک رفاه",
+        "name:en": "Refah Bank",
+        "opening_hours": "Sa-Th 08:00-02:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.070586,
+          39.3480919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/818837297",
+      "properties": {
+        "@id": "way/818837297",
+        "amenity": "bank",
+        "brand": "بانک تجارت",
+        "brand:wikidata": "Q7695198",
+        "brand:wikipedia": "en:Tejarat Bank",
+        "building": "yes",
+        "name": "بانک تجارت",
+        "opening_hours": "Sa-Th 08:00-02:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0702295,
+          39.3481862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/818837298",
+      "properties": {
+        "@id": "way/818837298",
+        "amenity": "bank",
+        "brand": "بانک ملی",
+        "brand:en": "Bank Melli Iran",
+        "brand:wikidata": "Q806640",
+        "brand:wikipedia": "en:Bank Melli Iran",
+        "building": "yes",
+        "name": "بانک ملی",
+        "name:en": "Bank Melli Iran",
+        "opening_hours": "Sa-Th 08:00-02:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0699982,
+          39.3486671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/818837299",
+      "properties": {
+        "@id": "way/818837299",
+        "amenity": "bank",
+        "brand": "بانک اقتصاد نوین",
+        "brand:en": "EN Bank",
+        "brand:wikidata": "Q5323768",
+        "brand:wikipedia": "en:EN Bank",
+        "building": "yes",
+        "name": "بانک اقتصاد نوین",
+        "name:en": "EN Bank",
+        "opening_hours": "Sa-Th 08:00-02:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.069857,
+          39.3490896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/818837300",
+      "properties": {
+        "@id": "way/818837300",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "بانک صادرات",
+        "brand:en": "Bank Saderat Iran",
+        "brand:fa": "بانک صادرات",
+        "brand:wikidata": "Q2882608",
+        "brand:wikipedia": "en:Bank Saderat Iran",
+        "building": "yes",
+        "name": "بانک صادرات",
+        "name:en": "Bank Saderat Iran",
+        "name:fa": "بانک صادرات",
+        "opening_hours": "Sa-Th 08:00-02:00",
+        "opening_hours:covid19": "Mo-Sa 08:00-14:30",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0694845,
+          39.3495286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/822876121",
+      "properties": {
+        "@id": "way/822876121",
+        "amenity": "bank",
+        "brand": "بانک سپه",
+        "brand:en": "Bank Sepah",
+        "brand:wikidata": "Q2882624",
+        "brand:wikipedia": "en:Bank Sepah",
+        "building": "yes",
+        "name": "بانک سپه",
+        "name:en": "Bank Sepah",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.070108,
+          39.349727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/823373510",
+      "properties": {
+        "@id": "way/823373510",
+        "building": "yes",
+        "name": "سوپر مارکت قنبری",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.069957,
+          39.3489304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/823724296",
+      "properties": {
+        "@id": "way/823724296",
+        "building": "yes",
+        "name": "سوپر مارکت درویشی",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0742159,
+          39.3460372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/823724298",
+      "properties": {
+        "@id": "way/823724298",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر زینالی",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0715326,
+          39.3455118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/824563435",
+      "properties": {
+        "@id": "way/824563435",
+        "building": "yes",
+        "name": "سوپر مارکت شریفی",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0744695,
+          39.3445017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/827585858",
+      "properties": {
+        "@id": "way/827585858",
+        "building": "yes",
+        "name": "فروشگاه بزرگ بدری",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.065908,
+          39.3475533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/827585859",
+      "properties": {
+        "@id": "way/827585859",
+        "amenity": "bank",
+        "brand": "بانک کشاورزی",
+        "brand:en": "Bank Keshavarzi Iran",
+        "brand:wikidata": "Q6395007",
+        "brand:wikipedia": "en:Bank Keshavarzi Iran",
+        "building": "yes",
+        "name": "بانک کشاورزی",
+        "name:en": "Bank Keshavarzi Iran",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0656851,
+          39.3478076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/832141448",
+      "properties": {
+        "@id": "way/832141448",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "شبکه بهداشت شماره ۲",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0722083,
+          39.3501843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/840210587",
+      "properties": {
+        "@id": "way/840210587",
+        "amenity": "clinic",
+        "building": "yes",
+        "description": "شبکه بهداشت شماره 1",
+        "healthcare": "clinic",
+        "name": "شبکه بهداشت شماره ۱",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0753827,
+          39.3379238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/855924049",
+      "properties": {
+        "@id": "way/855924049",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "بام ماکو",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4627227,
+          39.2752829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/900736495",
+      "properties": {
+        "@id": "way/900736495",
+        "amenity": "police",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.450041,
+          38.9914556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/903391294",
+      "properties": {
+        "@id": "way/903391294",
+        "amenity": "place_of_worship",
+        "building": "chapel",
+        "denomination": "armenian_apostolic",
+        "historic": "church",
+        "religion": "christian",
+        "tourism": "attraction",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5414066,
+          39.0954095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/903443162",
+      "properties": {
+        "@id": "way/903443162",
+        "amenity": "place_of_worship",
+        "building": "chapel",
+        "denomination": "armenian_apostolic",
+        "historic": "church",
+        "religion": "christian",
+        "tourism": "attraction",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5421569,
+          39.0947745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/922959725",
+      "properties": {
+        "@id": "way/922959725",
+        "building": "yes",
+        "name": "Duzdağ Hotel",
+        "tourism": "hotel",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.3350396,
+          39.2752063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/923792121",
+      "properties": {
+        "@id": "way/923792121",
+        "building": "yes",
+        "name": "Heyder Eliyev Muzeyi",
+        "tourism": "museum",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4067125,
+          39.2154306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/957045316",
+      "properties": {
+        "@id": "node/957045316",
+        "amenity": "fuel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.6274153,
+          39.2730321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/991841729",
+      "properties": {
+        "@id": "way/991841729",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4481404,
+          39.1892859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/991841734",
+      "properties": {
+        "@id": "way/991841734",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.44985,
+          39.1887205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/992165653",
+      "properties": {
+        "@id": "way/992165653",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4015957,
+          39.2227797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/992165654",
+      "properties": {
+        "@id": "way/992165654",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.403996,
+          39.2230898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/992165655",
+      "properties": {
+        "@id": "way/992165655",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.40428,
+          39.2243609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1023969204",
+      "properties": {
+        "@id": "way/1023969204",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "height": "3.2",
+        "name": "خانه بهداشت",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.1720823,
+          39.1763723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1046736827",
+      "properties": {
+        "@id": "way/1046736827",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "سفره خانه سنتی یاشام",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4268736,
+          39.2903558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1057617257",
+      "properties": {
+        "@id": "way/1057617257",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4491484,
+          39.29825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1063795297",
+      "properties": {
+        "@id": "way/1063795297",
+        "access": "yes",
+        "fixme": "add proper tags: nem = روستای فتاح;  Pantheon = مقبره سید السادات حسینی",
+        "historic": "monument",
+        "name": "مقبره السادات حسینی",
+        "type": "دعا نویسی",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.9379412,
+          39.2941934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1064794018",
+      "properties": {
+        "@id": "way/1064794018",
+        "area": "yes",
+        "historic": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3881799,
+          39.3399078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1064794019",
+      "properties": {
+        "@id": "way/1064794019",
+        "area": "yes",
+        "historic": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.391007,
+          39.3428648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1064794022",
+      "properties": {
+        "@id": "way/1064794022",
+        "area": "yes",
+        "historic": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3509959,
+          39.342959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1064794023",
+      "properties": {
+        "@id": "way/1064794023",
+        "area": "yes",
+        "historic": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3526357,
+          39.3464855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1064794024",
+      "properties": {
+        "@id": "way/1064794024",
+        "area": "yes",
+        "historic": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4108566,
+          39.3134518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1064794025",
+      "properties": {
+        "@id": "way/1064794025",
+        "area": "yes",
+        "historic": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4285205,
+          39.332127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1064794026",
+      "properties": {
+        "@id": "way/1064794026",
+        "area": "yes",
+        "historic": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4271505,
+          39.3183409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1064794146",
+      "properties": {
+        "@id": "way/1064794146",
+        "area": "yes",
+        "historic": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4315219,
+          39.3181341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1118825104",
+      "properties": {
+        "@id": "way/1118825104",
+        "amenity": "fuel",
+        "fuel:cng": "yes",
+        "name": "جایگاه CNG",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0780016,
+          39.3326826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1158758231",
+      "properties": {
+        "@id": "way/1158758231",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "کلینیک زیبایی ریحانی",
+        "operator": "دکتر ریحانی",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4945501,
+          39.2933608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1159450010",
+      "properties": {
+        "@id": "way/1159450010",
+        "historic": "ruins",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3094044,
+          39.4084423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1159450014",
+      "properties": {
+        "@id": "way/1159450014",
+        "building": "yes",
+        "historic": "castle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3010685,
+          39.3763406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1159710320",
+      "properties": {
+        "@id": "way/1159710320",
+        "amenity": "parking",
+        "highway": "rest_area",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4081639,
+          39.4023715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1159710321",
+      "properties": {
+        "@id": "way/1159710321",
+        "amenity": "parking",
+        "parking": "surface",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4163918,
+          39.4004177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1159710379",
+      "properties": {
+        "@id": "way/1159710379",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3781782,
+          39.4040901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1159710384",
+      "properties": {
+        "@id": "way/1159710384",
+        "amenity": "parking",
+        "parking": "surface",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3824511,
+          39.4001449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1159710387",
+      "properties": {
+        "@id": "way/1159710387",
+        "amenity": "parking",
+        "parking": "surface",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3875187,
+          39.4011828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1159710388",
+      "properties": {
+        "@id": "way/1159710388",
+        "amenity": "parking",
+        "parking": "surface",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3881176,
+          39.4022447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1159710399",
+      "properties": {
+        "@id": "way/1159710399",
+        "amenity": "parking",
+        "parking": "surface",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3831607,
+          39.4013753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1159710400",
+      "properties": {
+        "@id": "way/1159710400",
+        "amenity": "parking",
+        "parking": "surface",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3873907,
+          39.3990857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1162755817",
+      "properties": {
+        "@id": "way/1162755817",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.3379154,
+          39.2503769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1163545132",
+      "properties": {
+        "@id": "way/1163545132",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.32849,
+          39.433195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1163545133",
+      "properties": {
+        "@id": "way/1163545133",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3253226,
+          39.4351966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1224706871",
+      "properties": {
+        "@id": "way/1224706871",
+        "amenity": "fuel",
+        "name": "پمپ بنزین گوزل آباد",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.016249,
+          38.8915703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1243399019",
+      "properties": {
+        "@id": "way/1243399019",
+        "building": "yes",
+        "name": "هتل ماوی",
+        "tourism": "hotel",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4464873,
+          39.3001919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1243399020",
+      "properties": {
+        "@id": "way/1243399020",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "بیمارستان قدس",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5077955,
+          39.2968809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1243568808",
+      "properties": {
+        "@id": "way/1243568808",
+        "natural": "spring",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4534924,
+          39.2904885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1273299453",
+      "properties": {
+        "@id": "way/1273299453",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4048345,
+          39.2206048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1273301408",
+      "properties": {
+        "@id": "way/1273301408",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4317679,
+          39.2018231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1300548692",
+      "properties": {
+        "@id": "way/1300548692",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "unisex": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.000659,
+          38.9048262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1442316074",
+      "properties": {
+        "@id": "way/1442316074",
+        "amenity": "parking",
+        "parking": "surface",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.543295,
+          39.0919756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1460349227",
+      "properties": {
+        "@id": "way/1460349227",
+        "building": "yes",
+        "name": "Araz Market",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4076324,
+          39.2138221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1460363634",
+      "properties": {
+        "@id": "way/1460363634",
+        "building": "yes",
+        "name": "Yaz Market",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.418838,
+          39.2222526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1460585402",
+      "properties": {
+        "@id": "way/1460585402",
+        "building": "yes",
+        "name": "Xatirə müzeyi",
+        "tourism": "museum",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4085292,
+          39.201126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1460585405",
+      "properties": {
+        "@id": "way/1460585405",
+        "building": "yes",
+        "name": "Ədəbiyyat Müzeyi",
+        "tourism": "museum",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4057181,
+          39.213849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1460597990",
+      "properties": {
+        "@id": "way/1460597990",
+        "building": "yes",
+        "name": "Təbriz Otel",
+        "tourism": "hotel",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4090857,
+          39.210192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1477324579",
+      "properties": {
+        "@id": "way/1477324579",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.9227792,
+          39.1880291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1477324580",
+      "properties": {
+        "@id": "way/1477324580",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.9237258,
+          39.1879955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1477324581",
+      "properties": {
+        "@id": "way/1477324581",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.9230931,
+          39.1885488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1477324582",
+      "properties": {
+        "@id": "way/1477324582",
+        "amenity": "parking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.921996,
+          39.1885173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1566960975",
+      "properties": {
+        "@id": "way/1566960975",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "کافه ستارخان",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0192696,
+          38.8840614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1569480046",
+      "properties": {
+        "@id": "way/1569480046",
+        "museum": "military",
+        "tourism": "museum",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4076724,
+          39.2272028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1574913690",
+      "properties": {
+        "@id": "way/1574913690",
+        "building": "yes",
+        "name": "شهر پروتئین(بشارت)",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4926441,
+          39.2930213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1938054509",
+      "properties": {
+        "@id": "node/1938054509",
+        "archaeological_site": "fortification",
+        "historic": "archaeological_site",
+        "historic:period": "bronze-age",
+        "name": "بسطام",
+        "name:en": "Bastam Citadel",
+        "name:pl": "Twierdza Bastam",
+        "tourism": "attraction",
+        "wikidata": "Q605408",
+        "wikipedia": "en:Bastam Citadel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.9456651,
+          38.8865501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2292324116",
+      "properties": {
+        "@id": "node/2292324116",
+        "amenity": "fuel",
+        "name": "جایگاه سوخت بهاران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0495419,
+          38.9092632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981137189",
+      "properties": {
+        "@id": "node/2981137189",
+        "amenity": "hospital",
+        "name": "Uşaq xəstəxanası"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4099491,
+          39.221347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981144072",
+      "properties": {
+        "@id": "node/2981144072",
+        "amenity": "hospital",
+        "name": "Doğum mərkəzi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4085563,
+          39.2214928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981148095",
+      "properties": {
+        "@id": "node/2981148095",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Təcili yardım"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.412609,
+          39.2233069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981150379",
+      "properties": {
+        "@id": "node/2981150379",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Respublika xəstəxanası",
+        "name:ru": "Республиканская больница"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4121048,
+          39.2221599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981150548",
+      "properties": {
+        "@id": "node/2981150548",
+        "amenity": "hospital",
+        "name": "Poliklinika",
+        "name:ru": "Поликлиника"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4124772,
+          39.2214387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981182927",
+      "properties": {
+        "@id": "node/2981182927",
+        "addr:city": "Naxçıvan",
+        "name": "Heydər Əliyev muzeyi",
+        "name:de": "Heidar-Alijew-Museum",
+        "name:fr": "Musée Heydar Aliyev",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4067147,
+          39.2152984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981193163",
+      "properties": {
+        "@id": "node/2981193163",
+        "amenity": "hospital",
+        "name": "Diaqnostika Mərkəzi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4210179,
+          39.2164978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981208035",
+      "properties": {
+        "@id": "node/2981208035",
+        "amenity": "cafe",
+        "name": "Çay Evi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4090556,
+          39.2097414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981209880",
+      "properties": {
+        "@id": "node/2981209880",
+        "name": "Naxçıvan Marketi",
+        "name:ru": "Маркет «Нахчыван»",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4101162,
+          39.2094561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981220738",
+      "properties": {
+        "@id": "node/2981220738",
+        "amenity": "marketplace",
+        "name": "Köhnə Bazar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4054575,
+          39.2081598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981221625",
+      "properties": {
+        "@id": "node/2981221625",
+        "amenity": "cafe",
+        "name": "Bazar Gölü kafesi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4059177,
+          39.2075766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981229419",
+      "properties": {
+        "@id": "node/2981229419",
+        "historic": "monument",
+        "name": "Möminə Xatun məqbərəsi",
+        "name:it": "Mausoleo di Momine Khatun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4065139,
+          39.2048842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981234483",
+      "properties": {
+        "@id": "node/2981234483",
+        "amenity": "cafe",
+        "name": "Kafe",
+        "name:ru": "Кафе"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4053768,
+          39.2066955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981237635",
+      "properties": {
+        "@id": "node/2981237635",
+        "amenity": "cafe",
+        "name": "Sevgilim Kafesi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4081312,
+          39.2072299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981244380",
+      "properties": {
+        "@id": "node/2981244380",
+        "amenity": "bus_station",
+        "name": "Avtobus vağzalı",
+        "name:ru": "Автовокзал"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4027383,
+          39.2186238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981258567",
+      "properties": {
+        "@id": "node/2981258567",
+        "amenity": "cafe",
+        "name": "Bazar Kafesi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4046949,
+          39.208509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981262255",
+      "properties": {
+        "@id": "node/2981262255",
+        "addr:city": "Naxçıvan",
+        "addr:housenumber": "9",
+        "addr:street": "Istiglal",
+        "fax": "+99436 5450139",
+        "name": "Tarix muzeyi",
+        "name:de": "Geschichtsmuseum",
+        "name:fr": "Musée d'histoire",
+        "name:pl": "Muzeum Historyczne",
+        "name:ru": "Музей истории",
+        "phone": "+99436 5450136",
+        "tourism": "museum",
+        "url": "http://www.nakhchivan.az/portal-en/muz-ler.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4126393,
+          39.2114044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981269731",
+      "properties": {
+        "@id": "node/2981269731",
+        "addr:city": "Naxçıvan",
+        "name": "Xan Sarayı",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4053473,
+          39.2039825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981278147",
+      "properties": {
+        "@id": "node/2981278147",
+        "name": "Cahan Ticarət Mərkəzi",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4248908,
+          39.2061625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981278148",
+      "properties": {
+        "@id": "node/2981278148",
+        "amenity": "marketplace",
+        "name": "Elit 57 geyim mağazası"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.424534,
+          39.2026955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981307040",
+      "properties": {
+        "@id": "node/2981307040",
+        "name": "Cahan AVM",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4299013,
+          39.1943112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2981621654",
+      "properties": {
+        "@id": "node/2981621654",
+        "amenity": "cafe",
+        "name": "Çayçı"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4007204,
+          39.3690266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3030523159",
+      "properties": {
+        "@id": "node/3030523159",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "KapitalBank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4087677,
+          39.2075221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3030523160",
+      "properties": {
+        "@id": "node/3030523160",
+        "amenity": "bank",
+        "atm": "yes",
+        "contact:email": "133@rabitabank.com",
+        "contact:facebook": "https://www.facebook.com/rabitabank",
+        "contact:instagram": "https://www.instagram.com/rabitabank",
+        "contact:linkedin": "https://www.linkedin.com/company/rabitabank-ojsc",
+        "contact:phone": "+994 12 598 44 88",
+        "contact:website": "https://www.rabitabank.com",
+        "contact:youtube": "https://www.youtube.com/@Rabitabank_official",
+        "name": "Rabitəbank",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "telegram": "https://t.me/Rabita_bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4084913,
+          39.2096813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3030523161",
+      "properties": {
+        "@id": "node/3030523161",
+        "name": "Ticarət Mərkəzi",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.405691,
+          39.2087414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3030561352",
+      "properties": {
+        "@id": "node/3030561352",
+        "amenity": "hospital",
+        "name": "Şəfa Tibb Mərkəzi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4120544,
+          39.2011527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3033208761",
+      "properties": {
+        "@id": "node/3033208761",
+        "historic": "monument",
+        "name": "مقبره صدرالدین",
+        "name:fa": "مقبره صدرالدین(یادبود جنگ چالدران)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3270925,
+          39.0886809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3298027363",
+      "properties": {
+        "@id": "node/3298027363",
+        "historic": "memorial",
+        "name": "Heydər Əliyev abidəsi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.441345,
+          39.1573109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3298027364",
+      "properties": {
+        "@id": "node/3298027364",
+        "historic": "memorial",
+        "name": "Koroğlu abidəsi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4276214,
+          39.1966235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3298027368",
+      "properties": {
+        "@id": "node/3298027368",
+        "name": "Qrand Naxçıvan Oteli",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4162046,
+          39.1995119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3298027369",
+      "properties": {
+        "@id": "node/3298027369",
+        "name": "Toğrul Oteli",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.423738,
+          39.192851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3298027371",
+      "properties": {
+        "@id": "node/3298027371",
+        "name": "Ukrayna Oteli",
+        "name:ru": "Отель «Украина»",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4232819,
+          39.1985718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3298027776",
+      "properties": {
+        "@id": "node/3298027776",
+        "historic": "monument",
+        "name": "BABƏKİN ABIDƏSI . ПАМЯТНИК БАБЕКА",
+        "name:en": "Babək abidəsi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4043797,
+          39.1893677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3298028172",
+      "properties": {
+        "@id": "node/3298028172",
+        "amenity": "fuel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4153175,
+          39.1993612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3299666354",
+      "properties": {
+        "@id": "node/3299666354",
+        "amenity": "fuel",
+        "name": "Cərci Petrol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4279806,
+          39.1954514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3299666360",
+      "properties": {
+        "@id": "node/3299666360",
+        "amenity": "hospital",
+        "name": "Mərkəzi Xəstəxana Babək"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4417915,
+          39.1560376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3299666762",
+      "properties": {
+        "@id": "node/3299666762",
+        "amenity": "police",
+        "name": "Naxçıvan Polis İdarəsi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4192389,
+          39.1988663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3299666763",
+      "properties": {
+        "@id": "node/3299666763",
+        "name": "Nuh Peyqəmbər Türbəsi",
+        "name:en": "Noah’s Mausoleum",
+        "name:pl": "Mauzoleum Noego",
+        "tourism": "museum",
+        "wikipedia": "en:Noah’s_Mausoleum_(Nakhchivan,_Azerbaijan)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4126491,
+          39.1957804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3299666765",
+      "properties": {
+        "@id": "node/3299666765",
+        "amenity": "restaurant",
+        "name": "Qala Restoranı"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4113436,
+          39.1948087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3299666766",
+      "properties": {
+        "@id": "node/3299666766",
+        "amenity": "hospital",
+        "name": "Təcili Yardım"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4232484,
+          39.1679256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3299666767",
+      "properties": {
+        "@id": "node/3299666767",
+        "amenity": "restaurant",
+        "name": "Ukrayna Restoranı"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4257547,
+          39.1972069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3299666770",
+      "properties": {
+        "@id": "node/3299666770",
+        "name": "15 əsr Qalası",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4134764,
+          39.1952583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3509111157",
+      "properties": {
+        "@id": "node/3509111157",
+        "alt_name": "Meteor krateri",
+        "geological": "meteor_crater",
+        "name": "Meteor Çukuru",
+        "name:de": "Meteorkrater",
+        "name:en": "Meteor crater",
+        "name:pl": "Krater meteorytowy",
+        "tourism": "attraction",
+        "wikidata": "Q110980556",
+        "wikimedia_commons": "Category:Meteor Cukuru",
+        "wikipedia": "cs:Meteor Çukuru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4020063,
+          39.420705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3669930645",
+      "properties": {
+        "@id": "node/3669930645",
+        "ele": "2879",
+        "gns:dsg": "HLL: hill",
+        "name": "محمود",
+        "name:en": "Kuh-e Mahmud",
+        "natural": "peak",
+        "source:name": "GNS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3222269,
+          38.8625464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3669978203",
+      "properties": {
+        "@id": "node/3669978203",
+        "ele": "2830",
+        "name": "قره یوکوش",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.308,
+          38.9929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3669978204",
+      "properties": {
+        "@id": "node/3669978204",
+        "ele": "2564",
+        "gns:dsg": "MT: mountain",
+        "name": "شیورش",
+        "name:en": "Kuh-e Shivaresh",
+        "natural": "peak",
+        "source:name": "GNS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3376429,
+          38.9733496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3757158072",
+      "properties": {
+        "@id": "node/3757158072",
+        "addr:city": "ماکو",
+        "amenity": "fuel",
+        "fuel:cng": "yes",
+        "name": "پمپ CNG",
+        "name:en": "CNG Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4621014,
+          39.2924613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3757161734",
+      "properties": {
+        "@id": "node/3757161734",
+        "addr:city": "ماکو",
+        "amenity": "marketplace",
+        "name": "بازار سنگ فروشان",
+        "name:en": "Stone Sellers Bazaar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4711204,
+          39.2931742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3757172831",
+      "properties": {
+        "@id": "node/3757172831",
+        "addr:city": "ماکو",
+        "amenity": "bank",
+        "brand": "بانک ملی",
+        "brand:en": "Bank Melli Iran",
+        "brand:wikidata": "Q806640",
+        "name": "بانک ملی",
+        "name:en": "Bank Melli Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5128368,
+          39.2956983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3758023448",
+      "properties": {
+        "@id": "node/3758023448",
+        "addr:city": "ماکو",
+        "amenity": "bank",
+        "brand": "بانک مسکن",
+        "brand:en": "Bank Maskan",
+        "brand:wikidata": "Q4855942",
+        "name": "بانک مسکن",
+        "name:en": "Bank Maskan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5088218,
+          39.2957052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3758023449",
+      "properties": {
+        "@id": "node/3758023449",
+        "addr:city": "ماکو",
+        "amenity": "bank",
+        "brand": "بانک صادرات",
+        "brand:en": "Bank Saderat Iran",
+        "brand:fa": "بانک صادرات",
+        "brand:wikidata": "Q2882608",
+        "name": "بانک صادرات",
+        "name:en": "Bank Saderat Iran",
+        "name:fa": "بانک صادرات"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.508316,
+          39.2956345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3758025431",
+      "properties": {
+        "@id": "node/3758025431",
+        "addr:city": "ماکو",
+        "amenity": "fuel",
+        "name": "پمپ بنزین داداشخان",
+        "name:en": "Dadashkhan Gas Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5193045,
+          39.2915592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3758028521",
+      "properties": {
+        "@id": "node/3758028521",
+        "addr:city": "ماکو",
+        "amenity": "fuel",
+        "name": "پمپ بنزین شرکت نفت",
+        "name:en": "Gas Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5385247,
+          39.2850493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3758028727",
+      "properties": {
+        "@id": "node/3758028727",
+        "amenity": "bus_station",
+        "name": "ترمینال مسافربری ماکو"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5404346,
+          39.2849589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3758104570",
+      "properties": {
+        "@id": "node/3758104570",
+        "addr:city": "بازرگان",
+        "name": "مهمانپذیر سحر",
+        "name:tk": "Säher Myýhmanhanasy",
+        "name:tr": "Seher Pansiyon",
+        "tourism": "motel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3882434,
+          39.3959497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3758104571",
+      "properties": {
+        "@id": "node/3758104571",
+        "addr:city": "بازرگان",
+        "name": "برج نگین",
+        "name:en": "Negin Tower",
+        "name:tr": "Negin AVM",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3882219,
+          39.3969446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3758110734",
+      "properties": {
+        "@id": "node/3758110734",
+        "addr:city": "بازرگان",
+        "name": "هتل شهریار بازرگان",
+        "name:tk": "Bazergan Şehriýar Hotel",
+        "name:tr": "Bazergan Şehriyar Otel",
+        "phone": "+98 44 3437 2618",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3886645,
+          39.3947371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3758203052",
+      "properties": {
+        "@id": "node/3758203052",
+        "addr:city": "شوط",
+        "amenity": "fuel",
+        "name": "جایگاه دو منظوره سوخت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.7630535,
+          39.2264322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4125719693",
+      "properties": {
+        "@id": "node/4125719693",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4310359,
+          39.1926112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4159845858",
+      "properties": {
+        "@id": "node/4159845858",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3881371,
+          39.39645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4237306392",
+      "properties": {
+        "@id": "node/4237306392",
+        "addr:street": "سوپر مارکت البیر",
+        "email": "Hossein3187@gmail.com",
+        "internet_access": "wlan",
+        "name": "سوپر مارکت البیر",
+        "name:en": "Albir Supermarket",
+        "phone": "+98 914 463 3187",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5257806,
+          39.2921596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4241463692",
+      "properties": {
+        "@id": "node/4241463692",
+        "amenity": "cafe",
+        "name": "Cağ Kabab",
+        "name:tr": "Qədim Dünya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4065392,
+          39.2091095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4322708491",
+      "properties": {
+        "@id": "node/4322708491",
+        "name": "Sizin",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4073453,
+          39.2156948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4341722299",
+      "properties": {
+        "@id": "node/4341722299",
+        "name": "Firma Mağazası",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.407047,
+          39.1927161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4341725289",
+      "properties": {
+        "@id": "node/4341725289",
+        "name": "Firma Mağazası",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4091406,
+          39.2060503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4345129589",
+      "properties": {
+        "@id": "node/4345129589",
+        "historic": "monument",
+        "name": "Dədə Qorqud abidəsi. Памятник Деде Горгуду",
+        "name:az": "Dədə Qorqud abidəsi",
+        "name:ru": "Памятник Деде Горгуду"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4095381,
+          39.2091769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4390612389",
+      "properties": {
+        "@id": "node/4390612389",
+        "amenity": "toilets",
+        "name": "توالت عمومی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4739908,
+          39.2928072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4419263189",
+      "properties": {
+        "@id": "node/4419263189",
+        "addr:postcode": "7000",
+        "addr:street": "Atatürk kuçəsi",
+        "name:ru": "Bəhruz Kəngərli muzeyi. Музей имени Бахруза Кенгерли",
+        "opening_hours": "Tu-Su 09:00-18:00",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4124312,
+          39.2127131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4570846089",
+      "properties": {
+        "@id": "node/4570846089",
+        "addr:postcode": "AZ7000",
+        "addr:street": "Cəlil Məmmədquluzadə 32",
+        "amenity": "bank",
+        "email": "cbar@nakhchivan.az",
+        "name:en": "Nakhchivan Branch of Central Bank of Azerbaijan Republic",
+        "name:tr": "Mərkəzi Bankın Naxçıvan Muxtar Respublikası İdarəsi",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "operator": "Cumhuriyet",
+        "phone": "+994365505912",
+        "website": "http://www.cbar.nakhchivan.az"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4184719,
+          39.1998021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4591009489",
+      "properties": {
+        "@id": "node/4591009489",
+        "addr:street": "بیکجوان",
+        "name": "مهمانپذیری شهریار",
+        "name:de": "Gästehaus Shahriar",
+        "name:en": "Guesthouse Shahriar",
+        "opening_hours": "24/7",
+        "phone": "+989149621924",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.021165,
+          38.8776261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4746938323",
+      "properties": {
+        "@id": "node/4746938323",
+        "addr:street": "آ. غ قره ضیاالدین کمپ کارکنان سدارس",
+        "name": "سوپر مارکت سلمانزاده",
+        "phone": "+989300591707",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.3936724,
+          39.0854023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4746938324",
+      "properties": {
+        "@id": "node/4746938324",
+        "addr:street": "آ. غ پلدشت حسن کندی",
+        "amenity": "bank",
+        "name": "پست بانک حسن کندی",
+        "name:en": "Post bank",
+        "phone": "+9844343413200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.2791301,
+          39.1043372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4746941525",
+      "properties": {
+        "@id": "node/4746941525",
+        "addr:street": "شهرک ارس",
+        "amenity": "restaurant",
+        "name": "غذاخوری",
+        "name:en": "غذاخوری غلام حسین زاده",
+        "phone": "+98 914 962 7892"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.3021907,
+          39.1154292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4747035522",
+      "properties": {
+        "@id": "node/4747035522",
+        "addr:street": "آ. غ چایپاره شهرک ارس",
+        "amenity": "fuel",
+        "name": "پمپ بنزین",
+        "name:en": "Benzin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.302729,
+          39.1148735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4747325915",
+      "properties": {
+        "@id": "node/4747325915",
+        "name": "کمپ سدارس",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.3778128,
+          39.0902083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4747526322",
+      "properties": {
+        "@id": "node/4747526322",
+        "addr:street": "آذربایجان غربی سدارس",
+        "name": "اقامتگاه توریستی برادران متقدمی",
+        "phone": "+989141651567",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.3935512,
+          39.0855411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4754160922",
+      "properties": {
+        "@id": "node/4754160922",
+        "addr:street": "آذربایجان غربی چایپاره کمپ ارس",
+        "name": "اقامتگاه وماهی فروشی و کباب برادران متقدمی",
+        "phone": "+989141651567",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.3801549,
+          39.0932551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4755593721",
+      "properties": {
+        "@id": "node/4755593721",
+        "addr:street": "آ. غ سدارس",
+        "name": "کمپ کارکنان سدارس",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.3802421,
+          39.0930469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4818253622",
+      "properties": {
+        "@id": "node/4818253622",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4090425,
+          39.2071206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4818253623",
+      "properties": {
+        "@id": "node/4818253623",
+        "amenity": "restaurant",
+        "name:tr": "Zümrüd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4094283,
+          39.2104014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4818258921",
+      "properties": {
+        "@id": "node/4818258921",
+        "amenity": "cafe",
+        "name:en": "Mr.Karim's place (ice-cream)",
+        "name:tr": "Kərimin yeri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4097595,
+          39.1942111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4818267821",
+      "properties": {
+        "@id": "node/4818267821",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4079736,
+          39.2085656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4818267921",
+      "properties": {
+        "@id": "node/4818267921",
+        "amenity": "cafe",
+        "name:en": "Nakhchivan cafe",
+        "name:tr": "Naxçıvan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4083467,
+          39.20867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4827456821",
+      "properties": {
+        "@id": "node/4827456821",
+        "amenity": "restaurant",
+        "name:en": "Dayirmanchi",
+        "name:tr": "Dəyirmançı"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4098296,
+          39.2146169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4833270621",
+      "properties": {
+        "@id": "node/4833270621",
+        "amenity": "cafe",
+        "name:tr": "Kitab - kafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4091592,
+          39.2124295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4834672922",
+      "properties": {
+        "@id": "node/4834672922",
+        "amenity": "fuel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.3919657,
+          39.2242935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4834689126",
+      "properties": {
+        "@id": "node/4834689126",
+        "amenity": "fuel",
+        "name:en": "Ana Petrol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.3912186,
+          39.2248104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4834718622",
+      "properties": {
+        "@id": "node/4834718622",
+        "amenity": "police",
+        "name:ru": "Pasport, Qeydiyyat ve Miqrasiya sobesi.Отдел Визы и Регистрации"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4202618,
+          39.1981657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4839512523",
+      "properties": {
+        "@id": "node/4839512523",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name:tr": "Kardiologiya mərkəzi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4118651,
+          39.2232461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4839968422",
+      "properties": {
+        "@id": "node/4839968422",
+        "amenity": "restaurant",
+        "name:tr": "Milli yeməklər"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4059884,
+          39.2098748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4874756021",
+      "properties": {
+        "@id": "node/4874756021",
+        "addr:street": "ماکو",
+        "amenity": "police",
+        "name": "پلیس راه ماکو"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.8062584,
+          39.2777215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5064497356",
+      "properties": {
+        "@id": "node/5064497356",
+        "historic": "memorial",
+        "memorial": "statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3867196,
+          39.0659823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5069222921",
+      "properties": {
+        "@id": "node/5069222921",
+        "amenity": "police",
+        "name:en": "Way police",
+        "name:tr": "Yol polisi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.3742131,
+          39.2339392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5075562023",
+      "properties": {
+        "@id": "node/5075562023",
+        "name": "آسیان هتل ماکو",
+        "name:en": "Asian Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.445978,
+          39.2937156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5102449923",
+      "properties": {
+        "@id": "node/5102449923",
+        "addr:street": "ماکو - بازرگان",
+        "alt_name": "دخمه سنگی فرهاد",
+        "historic": "castle",
+        "name": "ایوان فرهاد (بام فرهاد)",
+        "tourism": "attraction",
+        "wikidata": "Q5664069",
+        "wikipedia": "fa:دخمه سنگی فرهاد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4305205,
+          39.3160412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5141690918",
+      "properties": {
+        "@id": "node/5141690918",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4401908,
+          39.2188198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5305391873",
+      "properties": {
+        "@id": "node/5305391873",
+        "amenity": "fuel",
+        "name": "پمپ بنزین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.8097896,
+          39.2811608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5416097518",
+      "properties": {
+        "@id": "node/5416097518",
+        "addr:city": "Naxçıvan",
+        "name": "Naxçıvan Muxtar Respublikası Ədəbiyyat Muzeyi",
+        "name:de": "Literaturmuseum von Nachitschewan",
+        "name:en": "The Literature Museum of Nakhchivan",
+        "name:fr": "Musée de la littérature du Nakhitchevan",
+        "name:pl": "Muzeum Literatury",
+        "phone": "+99436 5451686",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4057315,
+          39.2138456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5519110445",
+      "properties": {
+        "@id": "node/5519110445",
+        "name": "هتل سردار",
+        "name:en": "Sardar Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4425176,
+          39.2980402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5652856722",
+      "properties": {
+        "@id": "node/5652856722",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4067066,
+          39.2060204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5652856723",
+      "properties": {
+        "@id": "node/5652856723",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4228096,
+          39.215153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5825495658",
+      "properties": {
+        "@id": "node/5825495658",
+        "name:en": "ev kiraye 150",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.406342,
+          39.2168563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5825495855",
+      "properties": {
+        "@id": "node/5825495855",
+        "name:en": "Eylence adasi",
+        "name:ru": "Əyləncə adası",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4292985,
+          39.1935416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5871417689",
+      "properties": {
+        "@id": "node/5871417689",
+        "name": "سوپرمارکت و لبنیاتی امیر",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5331652,
+          39.2879993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6017763890",
+      "properties": {
+        "@id": "node/6017763890",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5438926,
+          39.0920053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6052840689",
+      "properties": {
+        "@id": "node/6052840689",
+        "addr:street": "خیابان بهشتی",
+        "amenity": "bank",
+        "brand": "بانک مسکن",
+        "brand:en": "Bank Maskan",
+        "brand:wikidata": "Q4855942",
+        "name": "بانک مسکن",
+        "name:en": "Bank Maskan",
+        "opening_hours": "Sa-Th 08:00-14:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0250377,
+          38.8900338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6291943385",
+      "properties": {
+        "@id": "node/6291943385",
+        "addr:street": "Улица Низами Гянджеви",
+        "internet_access": "wlan",
+        "name:ru": "Сдаётся квартира суточная",
+        "operator": "МЕТИН",
+        "phone": "0553113321",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4060029,
+          39.2167454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6312717008",
+      "properties": {
+        "@id": "node/6312717008",
+        "addr:city": "Naxçıvan",
+        "name": "Yusif Küseyir oğlu türbəsi",
+        "name:ru": "Гробница Юсифа ибн Кусейра",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4141677,
+          39.2018011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6441930485",
+      "properties": {
+        "@id": "node/6441930485",
+        "addr:street": "ماکو - بازرگان",
+        "amenity": "taxi",
+        "name": "تاکسی تلفنی شهریاربازرگان",
+        "name:en": "Taxi shahriyare Bazargan",
+        "name:tr": "Şehriyar Telefon Taksi",
+        "opening_hours": "24/7",
+        "phone": "+98 44 3437 6070"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3890057,
+          39.3926979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6597613885",
+      "properties": {
+        "@id": "node/6597613885",
+        "historic": "monument",
+        "name": "İlan Dağı Abidəsi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.43938,
+          39.1922817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6609966904",
+      "properties": {
+        "@id": "node/6609966904",
+        "amenity": "fuel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.1268911,
+          39.4051949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6619054285",
+      "properties": {
+        "@id": "node/6619054285",
+        "name:en": "Qaban Castle",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5116563,
+          39.2997883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6637529985",
+      "properties": {
+        "@id": "node/6637529985",
+        "amenity": "restaurant",
+        "name": "Mahku",
+        "name:tr": "maku"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.447432,
+          39.2994776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6680985620",
+      "properties": {
+        "@id": "node/6680985620",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "بانک ملی",
+        "name:tk": "Bank Milli",
+        "name:tr": "Bank Milli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3805898,
+          39.4021192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6681258854",
+      "properties": {
+        "@id": "node/6681258854",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "بانک کشاورزی",
+        "brand:en": "Bank Keshavarzi Iran",
+        "brand:wikidata": "Q6395007",
+        "brand:wikipedia": "en:Bank Keshavarzi Iran",
+        "name": "بانک کشاورزی",
+        "name:en": "Bank Keshavarzi Iran",
+        "name:tk": "Keşawerzi Bank",
+        "name:tr": "Kişaverzi Bankası"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3887177,
+          39.390189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6684092308",
+      "properties": {
+        "@id": "node/6684092308",
+        "name": "مهمانسرا نیرو انتظامی",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.446298,
+          39.2951886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6684172648",
+      "properties": {
+        "@id": "node/6684172648",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "بانک رسالت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4894945,
+          39.2928664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6684172652",
+      "properties": {
+        "@id": "node/6684172652",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "پست بانک",
+        "brand:en": "Post Bank of Iran",
+        "brand:wikidata": "Q7233625",
+        "name": "پست بانک",
+        "name:en": "Post Bank of Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4929754,
+          39.2930853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6684172655",
+      "properties": {
+        "@id": "node/6684172655",
+        "name": "هتل نور",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5094272,
+          39.2961957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6684172662",
+      "properties": {
+        "@id": "node/6684172662",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "بانک سپه",
+        "brand:en": "Bank Sepah",
+        "brand:wikidata": "Q2882624",
+        "name": "بانک سپه",
+        "name:en": "Bank Sepah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5097818,
+          39.2952849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6684172671",
+      "properties": {
+        "@id": "node/6684172671",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "بانک ملت",
+        "brand:en": "Bank Mellat",
+        "brand:wikidata": "Q4855944",
+        "name": "بانک ملت",
+        "name:en": "Bank Mellat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5098616,
+          39.2958234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6684172678",
+      "properties": {
+        "@id": "node/6684172678",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه شبانه روزی جباری",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5092166,
+          39.2957807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6684172684",
+      "properties": {
+        "@id": "node/6684172684",
+        "name": "هتل الوند",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.508964,
+          39.2957102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6684183237",
+      "properties": {
+        "@id": "node/6684183237",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه شبانه روزی سلامی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5061203,
+          39.2953414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6684183246",
+      "properties": {
+        "@id": "node/6684183246",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "داروخانه دکتر لیدایی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5072672,
+          39.2955746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6684231693",
+      "properties": {
+        "@id": "node/6684231693",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "بانک رفاه",
+        "brand:en": "Refah Bank",
+        "brand:wikidata": "Q7307083",
+        "name": "بانک رفاه",
+        "name:en": "Refah Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5104006,
+          39.2957361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6684231709",
+      "properties": {
+        "@id": "node/6684231709",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "بانک تجارت",
+        "brand:wikidata": "Q7695198",
+        "name": "بانک تجارت"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5106848,
+          39.2954616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6684252793",
+      "properties": {
+        "@id": "node/6684252793",
+        "amenity": "fuel",
+        "name": "جایگاه CNG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5576867,
+          39.2787784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6684310594",
+      "properties": {
+        "@id": "node/6684310594",
+        "amenity": "fuel",
+        "fuel:cng": "yes",
+        "name": "جایگاه CNG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4337428,
+          39.3010674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6684780830",
+      "properties": {
+        "@id": "node/6684780830",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "بانک سپه",
+        "brand:en": "Bank Sepah",
+        "brand:wikidata": "Q2882624",
+        "name": "بانک سپه",
+        "name:en": "Bank Sepah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4963965,
+          39.2941277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6684780831",
+      "properties": {
+        "@id": "node/6684780831",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "بانک ملی",
+        "brand:en": "Bank Melli Iran",
+        "brand:wikidata": "Q806640",
+        "name": "بانک ملی",
+        "name:en": "Bank Melli Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4994258,
+          39.2940926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6684780834",
+      "properties": {
+        "@id": "node/6684780834",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "بانک مسکن",
+        "brand:en": "Bank Maskan",
+        "brand:wikidata": "Q4855942",
+        "name": "بانک مسکن",
+        "name:en": "Bank Maskan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5032562,
+          39.2945111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6974042913",
+      "properties": {
+        "@id": "node/6974042913",
+        "name": "کاخ سردار",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4261023,
+          39.289409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7057875486",
+      "properties": {
+        "@id": "node/7057875486",
+        "amenity": "cafe",
+        "name:en": "Degirmanci"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4101894,
+          39.2137718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7057908988",
+      "properties": {
+        "@id": "node/7057908988",
+        "internet_access": "wlan",
+        "name:en": "Mehmanxana Hotel",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4020259,
+          39.219299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7057941885",
+      "properties": {
+        "@id": "node/7057941885",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4058332,
+          39.210343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7142984685",
+      "properties": {
+        "@id": "node/7142984685",
+        "historic": "memorial",
+        "name": "مسکن مهر چایپاره"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.9943569,
+          38.9044695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7143005986",
+      "properties": {
+        "@id": "node/7143005986",
+        "addr:street": "قره‌ضیاءالدین تقاطع بلوار امام حسین و غفاری",
+        "name": "خواروبار فروشی توحید",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0242003,
+          38.8939351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7143255800",
+      "properties": {
+        "@id": "node/7143255800",
+        "amenity": "cafe",
+        "name": "کافه نان و شیرینی آردا آرال"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4303323,
+          39.2914543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7143255840",
+      "properties": {
+        "@id": "node/7143255840",
+        "amenity": "cafe",
+        "name": "کافه توریستی الواری"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4257903,
+          39.2899918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7143255841",
+      "properties": {
+        "@id": "node/7143255841",
+        "amenity": "restaurant",
+        "name": "مجموعه حاج بابا"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4239154,
+          39.2885386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7143255842",
+      "properties": {
+        "@id": "node/7143255842",
+        "name": "امارت سردار ماکو",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4282338,
+          39.2899793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7146544088",
+      "properties": {
+        "@id": "node/7146544088",
+        "addr:street": "آذربایجان غربی قره ضیاءالدین بلوار امام حسین",
+        "amenity": "restaurant",
+        "name": "رستوران مجلل لامیراژ",
+        "name:en": "resturent lamirag",
+        "phone": "+98 905 250 5871"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.023219,
+          38.8938423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7146562685",
+      "properties": {
+        "@id": "node/7146562685",
+        "addr:street": "بلوار امام حسین",
+        "name": "سوپر مارکت ایرانیان",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0234084,
+          38.8940094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7146594485",
+      "properties": {
+        "@id": "node/7146594485",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "پایانه مسافربری تعاونی ۱۴",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.032537,
+          38.8933928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7146594486",
+      "properties": {
+        "@id": "node/7146594486",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "ترمینال مسافربری تعاونی ۸",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0303681,
+          38.8920525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7151724185",
+      "properties": {
+        "@id": "node/7151724185",
+        "addr:street": "خیابان طباطبایی",
+        "name": "خواروبار فروشی اروج یوسف زاده",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0216054,
+          38.8888183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7156281385",
+      "properties": {
+        "@id": "node/7156281385",
+        "addr:street": "سه راهی قره ضیاءالدین ماکو",
+        "amenity": "police",
+        "name": "پلیس راه چایپاره چالدران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0439151,
+          38.9100517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7156281485",
+      "properties": {
+        "@id": "node/7156281485",
+        "addr:street": "آذربایجان غربی پلدشت کیلومتر 5 جاده شهرک ارس به کمپ ارس",
+        "amenity": "police",
+        "name": "گروهان مرزی سدارس"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.360635,
+          39.104847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7168778185",
+      "properties": {
+        "@id": "node/7168778185",
+        "brand": "افق کوروش",
+        "brand:en": "Ofoq Kourosh",
+        "brand:fa": "افق کوروش",
+        "brand:wikidata": "Q65199490",
+        "name": "افق کوروش",
+        "name:en": "Ofoq Kourosh",
+        "name:fa": "افق کوروش",
+        "shop": "supermarket",
+        "short_name": "OK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0214242,
+          38.8941646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7169905186",
+      "properties": {
+        "@id": "node/7169905186",
+        "addr:street": "خیابان بهشتی",
+        "amenity": "bank",
+        "brand": "بانک ملت",
+        "brand:en": "Bank Mellat",
+        "brand:wikidata": "Q4855944",
+        "name": "بانک ملت",
+        "name:en": "Bank Mellat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.020775,
+          38.8904982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7169927387",
+      "properties": {
+        "@id": "node/7169927387",
+        "addr:street": "خیابان بهشتی",
+        "amenity": "bank",
+        "brand": "بانک کشاورزی",
+        "brand:en": "Bank Keshavarzi Iran",
+        "brand:wikidata": "Q6395007",
+        "name": "بانک کشاورزی",
+        "name:en": "Bank Keshavarzi Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0201986,
+          38.8903144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7216270485",
+      "properties": {
+        "@id": "node/7216270485",
+        "amenity": "toilets",
+        "opening_hours": "24/7",
+        "operator": "شهرداری چایپاره"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.028508,
+          38.8906181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7514228756",
+      "properties": {
+        "@id": "node/7514228756",
+        "amenity": "fuel",
+        "name": "پمپ بنزین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.7961703,
+          39.0022657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7771005568",
+      "properties": {
+        "@id": "node/7771005568",
+        "amenity": "fuel",
+        "name": "پمپ بنزین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3844281,
+          39.0406649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7771005579",
+      "properties": {
+        "@id": "node/7771005579",
+        "name": "کلیسای تادئوس",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5446855,
+          39.092269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8680034048",
+      "properties": {
+        "@id": "node/8680034048",
+        "ele": "1632",
+        "natural": "peak",
+        "source": "Thunderforest Landschaft"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3257785,
+          39.4202485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8680034053",
+      "properties": {
+        "@id": "node/8680034053",
+        "ele": "2317",
+        "natural": "peak",
+        "source": "Thunderforest Landschaft"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3190193,
+          39.3919968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8680034054",
+      "properties": {
+        "@id": "node/8680034054",
+        "ele": "2291",
+        "natural": "peak",
+        "source": "Thunderforest Landschaft"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3060481,
+          39.384078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8741291199",
+      "properties": {
+        "@id": "node/8741291199",
+        "ele": "1850",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.2849742,
+          38.9208121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8741291202",
+      "properties": {
+        "@id": "node/8741291202",
+        "ele": "2770",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.7333267,
+          39.053334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8741291203",
+      "properties": {
+        "@id": "node/8741291203",
+        "ele": "2787",
+        "name": "دومانلی داغ",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5449173,
+          39.1916862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8741291205",
+      "properties": {
+        "@id": "node/8741291205",
+        "ele": "2934",
+        "name": "مورس داغی",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3299221,
+          39.2841712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8741291206",
+      "properties": {
+        "@id": "node/8741291206",
+        "ele": "1980",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5249648,
+          39.3107922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8744500959",
+      "properties": {
+        "@id": "node/8744500959",
+        "ele": "2060",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4090898,
+          38.9433949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9024557917",
+      "properties": {
+        "@id": "node/9024557917",
+        "contact:facebook": "https://www.facebook.com/arazsupermarket",
+        "contact:instagram": "https://www.instagram.com/arazsupermarket",
+        "contact:phone": "+994 55 515 85 97",
+        "contact:website": "https://arazmarket.az",
+        "name": "Araz",
+        "opening_hours": "Mo-Su 08:00-23:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4078499,
+          39.2137175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9139286230",
+      "properties": {
+        "@id": "node/9139286230",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0757406,
+          39.3374924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9334428295",
+      "properties": {
+        "@id": "node/9334428295",
+        "amenity": "fuel",
+        "name": "پمپ بنزین سرخوش"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0402253,
+          38.9047935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9334432553",
+      "properties": {
+        "@id": "node/9334432553",
+        "amenity": "parking",
+        "operator": "کامیونداران",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0419444,
+          38.9102076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9335464611",
+      "properties": {
+        "@id": "node/9335464611",
+        "amenity": "marketplace",
+        "name": "میدان گندم"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0198649,
+          38.8891198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9336852597",
+      "properties": {
+        "@id": "node/9336852597",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "مرکز بهداشتی درمانی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0239058,
+          38.8862118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9336852607",
+      "properties": {
+        "@id": "node/9336852607",
+        "name": "سوپرمارکت قلیزاده",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0267006,
+          38.8883975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9352628994",
+      "properties": {
+        "@id": "node/9352628994",
+        "amenity": "fuel",
+        "brand": "یبگ جوان",
+        "name": "پمپ بنزین صادق زاده"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0182832,
+          38.874344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9362366591",
+      "properties": {
+        "@id": "node/9362366591",
+        "amenity": "restaurant",
+        "name": "غذا خوری آذربایجان"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0303363,
+          38.891744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9362453856",
+      "properties": {
+        "@id": "node/9362453856",
+        "amenity": "cafe",
+        "name": "اللر اتراقی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0233184,
+          38.8863204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9362577200",
+      "properties": {
+        "@id": "node/9362577200",
+        "amenity": "fuel",
+        "name": "گاز مایع"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0634892,
+          38.9055118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9362577201",
+      "properties": {
+        "@id": "node/9362577201",
+        "amenity": "fuel",
+        "name": "سی ان جی سرخوش"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0403104,
+          38.9047853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9363590809",
+      "properties": {
+        "@id": "node/9363590809",
+        "amenity": "police",
+        "name": "حوزه اشرفی اصفهانی",
+        "operator": "نیروی انتظامی",
+        "operator:wikidata": "Q6082591",
+        "operator:wikipedia": "ar:قوة إنفاذ القانون في الجمهورية الإسلامية الإيرانية"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0264022,
+          38.8861233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9367028017",
+      "properties": {
+        "@id": "node/9367028017",
+        "historic": "monument",
+        "name": "Mustafa Kemal Atatürk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4070578,
+          39.2126446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9480649708",
+      "properties": {
+        "@id": "node/9480649708",
+        "amenity": "parking",
+        "operator": "پارکینگ جفعرزاده"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0386122,
+          38.9261732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9625482292",
+      "properties": {
+        "@id": "node/9625482292",
+        "amenity": "cafe",
+        "name": "سفره خانه سنتی یاشام"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4269739,
+          39.2903895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10015409809",
+      "properties": {
+        "@id": "node/10015409809",
+        "name": "State flag museum",
+        "name:de": "Staatsflaggenmuseum",
+        "name:fr": "Musée du drapeau de l'état",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4013861,
+          39.2212061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10060093864",
+      "properties": {
+        "@id": "node/10060093864",
+        "name": "شاه بلاغی",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3941947,
+          39.0409419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10131825317",
+      "properties": {
+        "@id": "node/10131825317",
+        "amenity": "restaurant",
+        "name": "Mili Yeməklər",
+        "opening_hours": "Mo-Su 09:00-00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4088652,
+          39.1991514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10131825417",
+      "properties": {
+        "@id": "node/10131825417",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4013439,
+          39.2214885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10131826417",
+      "properties": {
+        "@id": "node/10131826417",
+        "name:en": "Clock Tower",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4171994,
+          39.1998152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10199120092",
+      "properties": {
+        "@id": "node/10199120092",
+        "amenity": "atm",
+        "brand": "Rabitəbank",
+        "brand:wikidata": "Q16416150",
+        "contact:email": "133@rabitabank.com",
+        "contact:phone": "133;+994 12 598 44 88",
+        "contact:website": "https://www.rabitabank.com/",
+        "currency:AZN": "yes",
+        "language:az": "yes",
+        "language:en": "yes",
+        "opening_hours": "24/7",
+        "operator": "Rabitəbank",
+        "operator:wikidata": "Q16416150"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.40818,
+          39.20972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10257561802",
+      "properties": {
+        "@id": "node/10257561802",
+        "amenity": "fast_food",
+        "name": "ساندویچ محبوب"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.024826,
+          38.886342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10613574265",
+      "properties": {
+        "@id": "node/10613574265",
+        "amenity": "restaurant",
+        "name": "تالار شهر"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.7782698,
+          39.2471577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11556189277",
+      "properties": {
+        "@id": "node/11556189277",
+        "name": "ستاد اسکان فرهنگیان",
+        "tourism": "motel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4452096,
+          39.2928677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11556189279",
+      "properties": {
+        "@id": "node/11556189279",
+        "name": "عمارت کلاه فرنگی",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5091243,
+          39.2973499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11557889880",
+      "properties": {
+        "@id": "node/11557889880",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "جمعیت هلال‌احمر ماکو"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5077889,
+          39.2959772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11563462377",
+      "properties": {
+        "@id": "node/11563462377",
+        "amenity": "fuel",
+        "name": "پمپ بنزین"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3960974,
+          39.3384744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11772077537",
+      "properties": {
+        "@id": "node/11772077537",
+        "ele": "1650",
+        "name": "Omid Ghahreman Shelter",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.496085,
+          39.3021925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11772085372",
+      "properties": {
+        "@id": "node/11772085372",
+        "access": "yes",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "historic:civilization": "iron-age",
+        "name": "قلعه تاریخی قبان ماکو"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5129024,
+          39.3009845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11853848247",
+      "properties": {
+        "@id": "node/11853848247",
+        "name": "فروشگاه گندم",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4312864,
+          39.2915836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11853848251",
+      "properties": {
+        "@id": "node/11853848251",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "کلینیک دکتر ریحانی"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4945195,
+          39.2934232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12151253101",
+      "properties": {
+        "@id": "node/12151253101",
+        "addr:postcode": "AZ7000",
+        "addr:street": "İslam Səfərli",
+        "name": "Garden House in Center",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4013847,
+          39.217552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12766647641",
+      "properties": {
+        "@id": "node/12766647641",
+        "brand": "سوپرمارکت پویا",
+        "name": "سوپر مارکت پویا",
+        "name:az-Arab": "Puyanın tuçanı",
+        "opening_hours": "Mo-Su 09:30-24:00",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "phone": "+989149632023",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4970944,
+          39.2948866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12784324645",
+      "properties": {
+        "@id": "node/12784324645",
+        "addr:city": "ماکو",
+        "addr:street": "بازرگان - ماکو",
+        "amenity": "restaurant",
+        "cuisine": "çorba_tabağı",
+        "diet:meat": "yes",
+        "name": "کبابی و دیزی سرای ذوالفعلى",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "phone": "0901 549 4314"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.432568,
+          39.2998536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12841369414",
+      "properties": {
+        "@id": "node/12841369414",
+        "ele": "2784",
+        "name": "چیرکین داغی",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4061045,
+          39.262446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12841369415",
+      "properties": {
+        "@id": "node/12841369415",
+        "ele": "2671",
+        "name": "دیک داغی",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4323913,
+          39.2280492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12841369416",
+      "properties": {
+        "@id": "node/12841369416",
+        "ele": "2587",
+        "name": "بارون باشی",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4620923,
+          39.2269599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12841369417",
+      "properties": {
+        "@id": "node/12841369417",
+        "ele": "2649",
+        "name": "تاقچه باشی",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5749956,
+          39.1720683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12841369418",
+      "properties": {
+        "@id": "node/12841369418",
+        "ele": "2743",
+        "name": "قارلی داغ",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5219664,
+          39.2058899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12849557171",
+      "properties": {
+        "@id": "node/12849557171",
+        "ele": "2841",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3648609,
+          39.272625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12849557172",
+      "properties": {
+        "@id": "node/12849557172",
+        "ele": "2882",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3171689,
+          39.2920192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12866945685",
+      "properties": {
+        "@id": "node/12866945685",
+        "contact:facebook": "https://www.facebook.com/arazsupermarket",
+        "contact:instagram": "https://www.instagram.com/arazsupermarket",
+        "contact:phone": "+994 55 515 85 97",
+        "contact:website": "https://arazmarket.az",
+        "name": "Araz",
+        "opening_hours": "24/7",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4207529,
+          39.1969083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13050307605",
+      "properties": {
+        "@id": "node/13050307605",
+        "amenity": "restaurant",
+        "name": "کبابی علی",
+        "opening_hours": "13:00-01:00",
+        "phone": "۰۹۹۰۷۶۵۳۳۹۱"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4224447,
+          39.305369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13081866601",
+      "properties": {
+        "@id": "node/13081866601",
+        "name": "Noa Hostel",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4105464,
+          39.2042531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13083798801",
+      "properties": {
+        "@id": "node/13083798801",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.3906571,
+          39.2246897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13083809901",
+      "properties": {
+        "@id": "node/13083809901",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.3954536,
+          39.2261424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13083938801",
+      "properties": {
+        "@id": "node/13083938801",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4025446,
+          39.2177558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13236589938",
+      "properties": {
+        "@id": "node/13236589938",
+        "amenity": "bank",
+        "name": "Kapital Bank",
+        "opening_hours": "Mo-Fr 09:00-18:30; Sa-Su 09:00-16:30",
+        "phone": "196",
+        "website": "https://www.kapitalbank.az/en/locations/branch/nakhichevan/naxcivan-shobesi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4048714,
+          39.2209521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13236589952",
+      "properties": {
+        "@id": "node/13236589952",
+        "amenity": "bank",
+        "name": "Kapital Bank",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "phone": "196",
+        "website": "https://www.kapitalbank.az/en/locations/branch/babak/babekbabek-filiali-627"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4455793,
+          39.1580267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13236595013",
+      "properties": {
+        "@id": "node/13236595013",
+        "amenity": "bank",
+        "name": "Kapital Bank",
+        "opening_hours": "Mo-Su 09:00-04:00",
+        "phone": "196",
+        "website": "https://www.kapitalbank.az/en/locations/branch/kangarli/kengerli-shobesi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0740799,
+          39.36256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13236595040",
+      "properties": {
+        "@id": "node/13236595040",
+        "amenity": "bank",
+        "name": "Kapital Bank",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "phone": "196",
+        "website": "https://www.kapitalbank.az/en/locations/branch/nakhichevan/naxcivan-filiali"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4106424,
+          39.2128431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13249929986",
+      "properties": {
+        "@id": "node/13249929986",
+        "amenity": "parking",
+        "fee": "no",
+        "operator": "yol neqliyyat",
+        "operator:type": "community",
+        "parking": "lane",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4113352,
+          39.2214239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13395930989",
+      "properties": {
+        "@id": "node/13395930989",
+        "historic": "monument",
+        "name": "Şəhidlər Xiyabanı"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4083806,
+          39.2018125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13511779930",
+      "properties": {
+        "@id": "node/13511779930",
+        "ele": "2826",
+        "name": "قره یوکوش",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3079722,
+          38.9922431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13512079900",
+      "properties": {
+        "@id": "node/13512079900",
+        "ele": "2548",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3335131,
+          38.9775702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13512102701",
+      "properties": {
+        "@id": "node/13512102701",
+        "ele": "2699",
+        "name": "تارو داغی",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3708205,
+          38.9689939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13512102702",
+      "properties": {
+        "@id": "node/13512102702",
+        "ele": "2682",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3641891,
+          38.9699815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13512102703",
+      "properties": {
+        "@id": "node/13512102703",
+        "ele": "2506",
+        "name": "تکلیک",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3009052,
+          39.0833501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13512102704",
+      "properties": {
+        "@id": "node/13512102704",
+        "ele": "2491",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3033084,
+          39.0833119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13512102705",
+      "properties": {
+        "@id": "node/13512102705",
+        "ele": "2589",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3812859,
+          38.9630163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13512102706",
+      "properties": {
+        "@id": "node/13512102706",
+        "ele": "2730",
+        "name": "آغ داش",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3933586,
+          38.9533033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13512102707",
+      "properties": {
+        "@id": "node/13512102707",
+        "ele": "2491",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4018794,
+          38.9453695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13512102708",
+      "properties": {
+        "@id": "node/13512102708",
+        "ele": "2792",
+        "name": "مندلیخ داغی",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.338322,
+          38.9283345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13512102709",
+      "properties": {
+        "@id": "node/13512102709",
+        "ele": "2784",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3435725,
+          38.9333531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13512102710",
+      "properties": {
+        "@id": "node/13512102710",
+        "ele": "2752",
+        "name": "کل داغی",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3816859,
+          38.8975294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13512102711",
+      "properties": {
+        "@id": "node/13512102711",
+        "ele": "2765",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3500142,
+          38.9233563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13512102712",
+      "properties": {
+        "@id": "node/13512102712",
+        "ele": "2885",
+        "name": "بروژ گرازرد",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3926449,
+          38.8529611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13512102713",
+      "properties": {
+        "@id": "node/13512102713",
+        "ele": "2871",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3906922,
+          38.8553172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13512102714",
+      "properties": {
+        "@id": "node/13512102714",
+        "ele": "2864",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3966404,
+          38.8541982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13597409234",
+      "properties": {
+        "@id": "node/13597409234",
+        "amenity": "fast_food",
+        "name": "فست فود لایک"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5266083,
+          39.2902502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/14269374204",
+      "properties": {
+        "@id": "node/14269374204",
+        "amenity": "fuel",
+        "name": "پمپ بنزین نالبند"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.9709864,
+          38.9398728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/14269374211",
+      "properties": {
+        "@id": "node/14269374211",
+        "amenity": "fuel",
+        "name": "پمپ بنزین خضرلو"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.8593257,
+          38.978016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/14297025047",
+      "properties": {
+        "@id": "node/14297025047",
+        "aircraft:type": "helicopter",
+        "historic": "aircraft"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4072528,
+          39.2278935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/14344233239",
+      "properties": {
+        "@id": "node/14344233239",
+        "name": "شهر پروتئین(بشارت)",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4926452,
+          39.2930421
+        ]
+      }
+    }
+  ]
+}

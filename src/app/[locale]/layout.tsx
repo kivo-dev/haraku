@@ -6,7 +6,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { ServiceWorkerRegister } from "@/components/layout/ServiceWorkerRegister";
 import { getDirection } from "@/lib/dir";
-import "@/styles/globals.css";
+import  "@/styles/globals.css";
 
 // Latin letters and digits; Persian text falls through to Vazirmatn (see tailwind.config.ts).
 const latin = Poppins({ subsets: ["latin"], weight: ["300", "400", "500", "600", "700"], variable: "--font-latin", display: "swap" });

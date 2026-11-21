@@ -13,9 +13,10 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from sqlalchemy import delete, select
+from sqlalchemy import delete, select, update
 from sqlalchemy.orm import Session
 
+from .config import get_settings
 from .db import SessionLocal, init_db
 from .models import Category, Opportunity, Place, PlaceImage
 from .search_text import build_search_fields
@@ -64,12 +65,25 @@ def _upsert_opportunity(db: Session, d: dict) -> None:
 
 def load(path: Path) -> None:
     data = json.loads(path.read_text(encoding="utf-8"))
-    init_db()
+    if get_settings().app_env != "prod":  # in prod the schema comes from `alembic upgrade head` only
+        init_db()
     with SessionLocal() as db:
         for i, c in enumerate(data.get("categories", [])):
             row = db.get(Category, c["key"]) or Category(key=c["key"])
             row.title_fa, row.title_en, row.sort = c["title"]["fa"], c["title"]["en"], c.get("sort", i)
             db.add(row)
+        db.flush()
+        # Migrate legacy prototype category keys to HARAKO's approved five groups.
+        # This is data-only: no records are deleted, and each old key is mapped explicitly.
+        legacy_categories = {
+            "nature": "nature_adventure",
+            "history": "attractions",
+            "services": "public_services",
+        }
+        for old_key, new_key in legacy_categories.items():
+            if db.get(Category, new_key) is not None and db.get(Category, old_key) is not None:
+                db.execute(update(Place).where(Place.category_key == old_key).values(category_key=new_key))
+                db.execute(delete(Category).where(Category.key == old_key))
         db.flush()
         known = set(db.scalars(select(Category.key)))
         for d in data.get("places", []):

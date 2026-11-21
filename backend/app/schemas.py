@@ -25,6 +25,8 @@ class PlaceOut(BaseModel):
     images: list[str] = []  # detail endpoint only
     reason: Optional[Localized] = None  # suggestions endpoint only
     verified: bool = False
+    source: str = "manual"
+    is_sample: bool = False
 
 
 class PlaceList(BaseModel):
@@ -46,6 +48,8 @@ class OpportunityOut(BaseModel):
     summary: Localized
     image: Optional[str] = None
     verified: bool = False
+    source: str = "manual"
+    is_sample: bool = False
 
 
 class OpportunityList(BaseModel):

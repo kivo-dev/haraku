@@ -31,6 +31,8 @@ def place_to_out(p: Any, distance_km: Optional[float] = None, reason: Optional[s
         images=[i.url for i in p.images] if detail else [],
         reason=REASONS.get(reason) if reason else None,
         verified=p.verification == VERIFIED,
+        source=getattr(p, "source", "manual"),
+        is_sample=getattr(p, "source", "manual") == "seed-sample",
     )
 
 
@@ -42,4 +44,6 @@ def opportunity_to_out(o: Any) -> OpportunityOut:
         summary=_loc(o.summary_fa, o.summary_en),
         image=o.image_url or None,
         verified=o.verification == VERIFIED,
+        source=getattr(o, "source", "manual"),
+        is_sample=getattr(o, "source", "manual") == "seed-sample",
     )

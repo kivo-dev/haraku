@@ -1,73 +1,23 @@
-# HARAKO Frontend — v5 (دیزاین جدید)
+# HARAKO — Project Documentation Pack
 
-اپ موبایل‌محور (PWA، بعداً APK) برای منطقه آزاد ماکو.
-Next.js (App Router) · TypeScript · Tailwind CSS 3 · next-intl · Lucide
+**Version:** 0.1 (working draft)  
+**Target:** Operational MVP for 3 Azar 1405 (24 November 2026)  
+**Scope:** Maku Free Zone, West Azerbaijan, Iran  
+**Languages:** Persian and English  
+**Platforms:** Responsive Web App first; PWA enhancement where feasible; native mobile apps later
 
-## اجرا
-```bash
-npm install
-npm run dev        # http://localhost:3000  (فارسی پیش‌فرض، /en انگلیسی)
-npm run typecheck && npm run lint && npm run build
-```
-> نسخهٔ v5 در محیط بدون اینترنت نوشته شد و `npm install`/`build` رویش اجرا نشد. بار اول `typecheck` و `build` را اجرا کن و اگر خطایی بود بفرست.
+## Documents
+- `01_PRD.md` — product definition, users, scope, requirements, acceptance criteria.
+- `02_ARCHITECTURE.md` — proposed system architecture, services, APIs, security, deployment.
+- `03_DATABASE.md` — initial PostgreSQL/PostGIS data model and provenance strategy.
+- `04_SIX_DAY_EXECUTION_PLAN.md` — sprint plan, roles, release gates, risks.
 
-## چه چیزی عوض شد
-- **دیزاین جدید** (الهام از دو رفرنس): زمینهٔ سبز نعنایی، کارت‌های عکس‌محور با گوشهٔ گرد، یک رنگ تأکید لیمویی برای دکمه‌ها و حالت فعال، نوار پایین شناور، عنوان‌های دو‌وزنه (سبک + ضخیم).
-- **صفحهٔ اول `/`**: لندینگ تمام‌صفحه با عکس، جست‌وجو و پیشنهاد مکان. (قبلاً `/` مستقیم به کشف می‌رفت.)
-- **کشف**: کاروسل افقی مکان‌های ویژه (`featured`)، فیلتر دسته با آیکون، شبکهٔ کارت‌های هم‌اندازه، جست‌وجو (از لندینگ هم با `?q=` می‌آید).
-- **صفحهٔ جزئیات مکان** `/discover/[id]`: عکس بزرگ، دکمه‌های «مسیر تا اینجا» و «نمایش روی نقشه»، ستارهٔ ذخیره (فعلاً در مرورگر).
-- تب «نقشه» از «کاوش» به «نقشه» تغییر نام داد (با «کشف» اشتباه می‌شد).
+## Important assumptions
+1. The official legal/geographic boundary of Maku Free Zone has not yet been supplied or verified. Do not approximate it using Maku city or county boundaries.
+2. OSM is an initial source for map data and some POIs, not a guarantee of complete or verified local information.
+3. Public OSM tile, Nominatim, and demo routing services are not production infrastructure guarantees. Select a suitable provider or self-host before public launch at meaningful traffic.
+4. The six-day delivery target requires a strict MVP. Offline maps, payments, booking, native apps, user reviews, and advanced AI itinerary planning are out of scope.
+5. Any operational launch must include real-device testing, privacy notice, clear location permission, visible map attribution, monitoring, backups, and a fallback if map/routing services fail.
 
-## عکس‌ها
-عکس‌های داخل `public/images/` تصویرسازی موقت هستند؛ با عکس‌های خودت جایگزینشان کن.
-همه‌چیز در **`IMAGE_GUIDE.md`**: هر عکس با چه نام و اندازه‌ای، کجا گذاشته شود. فایل را در `public/images/` بگذار؛ بدون تغییر کد نمایش داده می‌شود. نقشهٔ جایگاه‌ها: `src/lib/images.ts`.
-
-## اتصال API
-فایل `.env.local` بساز:
-```
-NEXT_PUBLIC_API_BASE_URL=https://your-api.example.com/v1
-```
-- `GET {base}/places` → لیست (آرایه، یا `{ items | data | results: [...] }`)
-- `GET {base}/places/{id}` → یک مکان
-
-فیلدهای مورد انتظار هر مکان (همه‌جا فقط `id` و `name` اجباری است):
-```jsonc
-{
-  "id": "maku-viewpoint",
-  "name": { "fa": "…", "en": "…" },     // یا یک رشته
-  "category": "nature",                  // nature | history | services
-  "area": { "fa": "…", "en": "…" },
-  "summary": { "fa": "…", "en": "…" },
-  "lat": 39.29, "lng": 44.51,
-  "rating": 4.6,
-  "distanceKm": 12,
-  "featured": true,                      // اختیاری؛ در کاروسل بالا نشان داده می‌شود
-  "image": "https://…/photo.jpg"        // اختیاری؛ وگرنه /images/places/<id>.jpg
-}
-```
-اگر API در دسترس نباشد یا `NEXT_PUBLIC_API_BASE_URL` تنظیم نشده باشد، مکان‌های نمونه نشان داده می‌شود. اسم فیلدها فقط در یک جا مپ می‌شود: `normalizePlace` در `src/lib/api/places.ts`؛ وقتی پاسخ نهایی Neshan/بکند مشخص شد همان‌جا را تنظیم کن. دستیار هوشمند (AI/MCP) بعداً از همین لایه داده می‌خواند.
-
-## سیستم پیشنهادها، فیلتر و فرصت‌های اقتصادی (آمادهٔ بکند)
-فرانتند این آدرس‌ها را صدا می‌زند. تا بکند وصل نشود، نمونه‌های داخلی نشان داده می‌شود.
-
-| آدرس | کجا استفاده می‌شود |
-|---|---|
-| `GET {base}/suggestions?limit=6` | بخش «پیشنهادهای ما» بالای کشف. **بکند تصمیم می‌گیرد چه چیزی پیشنهاد شود** و می‌تواند هر بار چیز تازه بدهد (مثلاً بر اساس شهر و مکان‌های مهم). فرانتند هر بار که صفحه باز می‌شود و با دکمهٔ رفرش دوباره می‌پرسد (بدون کش). هر مکان می‌تواند `reason` (دلیل پیشنهاد) داشته باشد. |
-| `GET {base}/places?category=nature&q=...` | وقتی کاربر یک دسته (طبیعت/تاریخی/خدمات) یا جست‌وجو را می‌زند، همین‌جا از سرور پرسیده می‌شود. |
-| `GET {base}/opportunities?sector=trade` | صفحهٔ «فرصت‌های اقتصادی». حوزه‌ها: `trade` `industry` `agriculture` `tourism`. فیلدها: `id`، `sector`، `title`، `summary`، `image` (اختیاری). |
-
-نکته‌ها: چون این درخواست‌ها از مرورگر کاربر می‌آیند، بکند باید **CORS** را برای آدرس برنامه باز کند. اگر درخواستی خطا بدهد، برنامه نمونه‌های داخلی را نشان می‌دهد و یک پیام کوتاه می‌گذارد. اسم فیلدها فقط در `src/lib/api/normalize.ts` مپ می‌شود.
-
-## ظاهر
-- فونت تیترها و منوی بالا: **Lalezar** (`font-display`، از Google Fonts با `next/font`). فقط یک وزن دارد؛ کنارش `font-normal` بگذار.
-- پس‌زمینهٔ صفحه‌های برنامه (کشف، نقشه، ...) منظرهٔ کاغذی انیمیشنی است: `src/components/ui/PaperScene.tsx` و انیمیشن‌هایش آخر `globals.css`. با «reduce motion» ثابت می‌ماند.
-
-## ساختار
-- `src/app/[locale]/page.tsx` لندینگ · `(app)/discover`, `discover/[id]`, `map`, `assistant`, `route`
-- `src/components/{landing,layout,discover,ui}/`
-- `src/lib/places.ts` نوع‌ها و دادهٔ نمونه · `src/lib/api/places.ts` لایهٔ API · `src/lib/images.ts` جایگاه عکس‌ها
-- متن‌ها: `src/messages/{fa,en}.json`
-
-## فونت
-- فارسی: `Vazirmatn-Variable.woff2` را در `public/fonts/` بگذار (OFL، از github.com/rastikerdar/vazirmatn).
-- لاتین: Poppins با `next/font/google` (هنگام build دانلود می‌شود و خودمیزبان است).
+## Date note
+3 Azar 1405 corresponds to 24 November 2026. From 17 November, this leaves roughly six full working days after today (18–23 November), depending on the team's working calendar. Confirm the event's exact local schedule.

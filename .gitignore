@@ -25,3 +25,35 @@ pnpm-debug.log*
 # OS files
 .DS_Store
 Thumbs.db
+
+# Local environments and secrets
+**/.env
+**/.env.*
+!**/.env.example
+!frontend/.env.local.example
+
+# Python environments and caches
+**/.venv/
+**/venv/
+**/pycache/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/*.py[cod]
+
+# Local databases
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+
+# Frontend dependencies and builds
+**/node_modules/
+**/.next/
+**/*.tsbuildinfo
+
+# Build artifacts
+**/dist/
+**/build/
+**/coverage/
+
+!.env.local.example

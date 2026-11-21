@@ -16,7 +16,6 @@ export function generateStaticParams() {
 
 type Props = { params: Promise<{ locale: string; id: string }> };
 
-/** Place page, following the third reference: photo with the name on it, rounded sheet below. */
 export default async function PlacePage({ params }: Props) {
   const { locale, id } = await params;
   setRequestLocale(locale);
@@ -32,10 +31,10 @@ export default async function PlacePage({ params }: Props) {
   const area = pick(place.area, lang);
   const summary = pick(place.summary, lang);
   const pill = "inline-flex h-10 items-center gap-1.5 rounded-full bg-white px-4 text-sm text-ink-700";
+  const gallery = place.images?.length ? place.images : placeGallerySrc(place.id);
 
   return (
     <article className="-mt-4 md:mt-0 md:grid md:grid-cols-2 md:items-start md:gap-10 md:px-10">
-      {/* Photo with name */}
       <div className="relative md:sticky md:top-6">
         <SlotImage
           src={placeImageSrc(place.id, place.image)}
@@ -64,7 +63,6 @@ export default async function PlacePage({ params }: Props) {
         </div>
       </div>
 
-      {/* Sheet: overlaps the photo on phones */}
       <div className="relative -mt-8 rounded-t-5xl bg-mist-100 px-5 pb-6 pt-9 md:mt-0 md:rounded-none md:bg-transparent md:px-0 md:pt-4">
         <FavoriteButton id={place.id} size="lg" className="absolute -top-7 end-6 md:hidden" />
 
@@ -91,9 +89,8 @@ export default async function PlacePage({ params }: Props) {
           </section>
         )}
 
-        {/* Extra photos: only the ones that exist are shown */}
         <div className="no-scrollbar mt-6 flex gap-3 overflow-x-auto">
-          {placeGallerySrc(place.id).map((src) => (
+          {gallery.map((src) => (
             <SlotImage key={src} src={src} alt="" optional className="relative aspect-[4/3] w-44 shrink-0 rounded-3xl md:w-56" />
           ))}
         </div>

@@ -2,31 +2,50 @@
   "_note": "PLACEHOLDER DATA from the frontend prototype. No real facts, no coordinates. Replace with checked data, then run: python -m app.seed --purge-samples",
   "categories": [
     {
-      "key": "nature",
+      "key": "attractions",
       "title": {
-        "fa": "طبیعت",
-        "en": "Nature"
-      }
+        "fa": "جاذبه‌های گردشگری",
+        "en": "Tourist attractions"
+      },
+      "sort": 1
     },
     {
-      "key": "history",
+      "key": "accommodation_food",
       "title": {
-        "fa": "تاریخی",
-        "en": "Historical"
-      }
+        "fa": "اقامت و پذیرایی",
+        "en": "Accommodation and dining"
+      },
+      "sort": 2
     },
     {
-      "key": "services",
+      "key": "transport",
       "title": {
-        "fa": "خدمات",
-        "en": "Services"
-      }
+        "fa": "حمل‌ونقل",
+        "en": "Transportation"
+      },
+      "sort": 3
+    },
+    {
+      "key": "public_services",
+      "title": {
+        "fa": "خدمات عمومی",
+        "en": "Public services"
+      },
+      "sort": 4
+    },
+    {
+      "key": "nature_adventure",
+      "title": {
+        "fa": "طبیعت و ماجراجویی",
+        "en": "Nature and adventure"
+      },
+      "sort": 5
     }
   ],
   "places": [
     {
       "id": "maku-viewpoint",
-      "category": "nature",
+      "category": "nature_adventure",
       "featured": true,
       "name": {
         "fa": "چشم‌انداز ماکو",
@@ -44,7 +63,7 @@
     },
     {
       "id": "qareh-kelisa",
-      "category": "history",
+      "category": "attractions",
       "featured": true,
       "name": {
         "fa": "قره‌کلیسا",
@@ -62,7 +81,7 @@
     },
     {
       "id": "chashmeh-soraya",
-      "category": "nature",
+      "category": "nature_adventure",
       "name": {
         "fa": "چشمه ثریا",
         "en": "Chashmeh Soraya"
@@ -79,7 +98,7 @@
     },
     {
       "id": "bazargan-stop",
-      "category": "services",
+      "category": "transport",
       "name": {
         "fa": "توقف در بازرگان",
         "en": "Stop at Bazargan"
